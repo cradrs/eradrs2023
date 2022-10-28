@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+  .logo_eradrs {
+    width: 80%;
+  }
+  .logo_sbc {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 769px) {
+  .logo_eradrs {
+    width: 45%;
+  }
+  .logo_sbc {
+    max-height: 180px;
+  }
+}
+
+.logo_sbc_anchor {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-decoration: none;
+}
+
+.logo_sbc_anchor span {
+  color: black;
+}
+
+.logo_eradrs_anchor {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-decoration: none;
+}
+
+.logo_eradrs_anchor span {
+  color: black;
+  padding: 0 0 1.5rem 2.5rem;
+}
+
+header .jumbotron {
+  background-image: url(/img/poa.jpg);
+  background-position: center;
+  background-size: cover;
+  /*background-blend-mode: multiply;*/
+  padding: 0rem;
+  /*background-color: rgb(123, 123, 123);*/
+  height: 40rem;
+}
