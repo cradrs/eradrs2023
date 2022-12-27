@@ -30,15 +30,23 @@
 
 	<div id="nav_bar">
   <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-    <div class="container text-uppercase" style="justify-content: end;">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+    <div class="container text-uppercase">
+      <a class="navbar-brand" href="/eradrs2023">
+        <img src="img/Preto_2.png" alt="Logo" width="86" height="50" class="d-inline-block align-middle">
+        ERAD/RS 2023
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-        <div class="navbar-nav m-2">
-          <a id="nav-a" class="nav-item nav-link" href="/eradrs2023">Início</a>
-          <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/inscricoes">Inscrições</a>
-          <div class="nav-item dropdown">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: center;">
+        <ul class="navbar-nav m-2">
+          <li class="nav-item">
+            <a id="nav-a" class="nav-item nav-link" href="/eradrs2023">Início</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/inscricoes">Inscrições</a>
+          </li>
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Programação
             </a>
@@ -48,8 +56,8 @@
               <li><a class="dropdown-item" href="/eradrs2023/artigos_aceitos">Artigos Aceitos</a></li>
               <li><a class="dropdown-item" href="/eradrs2023/cronograma">Cronograma</a></li>
             </ul>
-          </div>
-          <div class="nav-item dropdown">
+          </li>
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Submissões
             </a>
@@ -58,9 +66,11 @@
               <li><a class="dropdown-item" href="/eradrs2023/propostas_de_minicursos">Propostas de minicursos</a></li>
               <li><a class="dropdown-item" href="/eradrs2023/artigos_aceitos">Artigos Aceitos</a></li>
             </ul>
-          </div>
-          <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/local">Local</a>
-          <div class="nav-item dropdown">
+          </li>
+          <li class="nav-item">
+            <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/local">Local</a>
+          </li>
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Eventos
             </a>
@@ -73,16 +83,36 @@
               <li><a class="dropdown-item" href="/eradrs2023/fotos">Fotos</a></li>
               <li><a class="dropdown-item" href="https://cradrs.github.io/erad-rs#edicoes" target="_blank">Edições anteriores</a></li>
             </ul>
-          </div>
-          <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/organizacao">Organização</a>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/organizacao">Organização</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
-</div>
 
 	
 	<header>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container container_header">
+      <div class="row">
+        <div class="div_logo_eradrs" style="position: relative;">
+          <a class="logo_eradrs_anchor" href="/eradrs2023">
+            <img class="p-1 logo_eradrs" src="img/Branco.png" alt="logo eradrs 2023">
+          </a>
+          <a class="logo_sbc_anchor" href="https://www.sbc.org.br/" target="_blank">
+            <span>Realização:</span>
+            <img class="logo_sbc"src="img/SBC.svg" alt="logo sbc">
+          </a>
+        </div>
+      </div>
+      <h1 class="pt-4 display-6 text-white text-center">XXIII Escola Regional de Alto Desempenho da Região Sul</h1>
+    </div>
+  </div>
+</header>
+
+<!--<header>
   <div class="jumbotron jumbotron-fluid">
     <div class="container" style="padding-top: 135px;">
       <div class="row align-items-center">
@@ -101,7 +131,8 @@
       </div>
     </div>
   </div>
-</header>
+</header>-->
+
 
 	<section id="light-card">
   <div class="p-2 container col-sm-12 col-lg-8 text-justify">
@@ -114,13 +145,17 @@
     </ul>
     <h4>Datas importantes</h4>
     <ul class="mt-4">
-      <li>6/1/2023: Data limite para submissão de artigos (Fóruns de IC e PG).</li>
-      <li>3/2/2023: Notificação dos artigos aceitos (Fóruns de IC e PG).</li>
-      <li>3/3/2023: Data limite para upload da versão final dos artigos aceitos no JEMS.</li>
+      <li>13/02/2023: Data limite para submissão de artigos (Fóruns de IC e PG).</li>
+      <li>27/03/2023: Notificação dos artigos aceitos (Fóruns de IC e PG).</li>
+      <li>03/04/2023: Data limite para upload da versão final dos artigos aceitos no JEMS.</li>
     </ul>
     <p class="lead">OBSERVAÇÃO: Todos os prazos são até às 23h59min (horário oficial de Brasília – BRT).</p>
     <h4>Formato e Submissão</h4>
     <p class="lead">Quanto ao formato, os textos devem ser escritos de acordo com o template da SBC, em língua portuguesa ou inglesa, porém sem abstract em inglês caso escrito em língua portuguesa. Há também a possibilidade de utilizar o template Latex criado pela organização da ERAD/RS 2022, que agrega algumas facilidades de uso.  As submissões para os fóruns de Iniciação Científica e Pós-Graduação devem ser feitas no sistema JEMS, da SBC, as submissões para cada fórum se dão em links diferentes:</p>
+    <ul class="mt-4">
+      <li><a href="https://jems.sbc.org.br/home.cgi?c=4270">Fórum de Iniciação Científica (JEMS)</a></li>
+      <li><a href="https://jems.sbc.org.br/home.cgi?c=4271">Fórum de Pós-Graduação (JEMS)</a></li>
+    </ul>    
     <h4>Comitês avaliadores</h4>
     <p class="lead">Cada trabalho submetido a ERAD/RS 2022 será avaliado por, no mínimo, três especialistas. Você pode conferir as listas de membros de cada Comitê de Programa acessando a <a href="/organizacao" target="_blank">lista de organizadores</a>.</p>
     <h4>Tópicos de interesse (lista não exaustiva)</h4>

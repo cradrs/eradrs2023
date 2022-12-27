@@ -30,15 +30,23 @@
 
 	<div id="nav_bar">
   <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-    <div class="container text-uppercase" style="justify-content: end;">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+    <div class="container text-uppercase">
+      <a class="navbar-brand" href="/eradrs2023">
+        <img src="img/Preto_2.png" alt="Logo" width="86" height="50" class="d-inline-block align-middle">
+        ERAD/RS 2023
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-        <div class="navbar-nav m-2">
-          <a id="nav-a" class="nav-item nav-link" href="/eradrs2023">Início</a>
-          <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/inscricoes">Inscrições</a>
-          <div class="nav-item dropdown">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: center;">
+        <ul class="navbar-nav m-2">
+          <li class="nav-item">
+            <a id="nav-a" class="nav-item nav-link" href="/eradrs2023">Início</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/inscricoes">Inscrições</a>
+          </li>
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Programação
             </a>
@@ -48,8 +56,8 @@
               <li><a class="dropdown-item" href="/eradrs2023/artigos_aceitos">Artigos Aceitos</a></li>
               <li><a class="dropdown-item" href="/eradrs2023/cronograma">Cronograma</a></li>
             </ul>
-          </div>
-          <div class="nav-item dropdown">
+          </li>
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Submissões
             </a>
@@ -58,9 +66,11 @@
               <li><a class="dropdown-item" href="/eradrs2023/propostas_de_minicursos">Propostas de minicursos</a></li>
               <li><a class="dropdown-item" href="/eradrs2023/artigos_aceitos">Artigos Aceitos</a></li>
             </ul>
-          </div>
-          <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/local">Local</a>
-          <div class="nav-item dropdown">
+          </li>
+          <li class="nav-item">
+            <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/local">Local</a>
+          </li>
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Eventos
             </a>
@@ -73,16 +83,36 @@
               <li><a class="dropdown-item" href="/eradrs2023/fotos">Fotos</a></li>
               <li><a class="dropdown-item" href="https://cradrs.github.io/erad-rs#edicoes" target="_blank">Edições anteriores</a></li>
             </ul>
-          </div>
-          <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/organizacao">Organização</a>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a id="nav-a" class="nav-item nav-link" href="/eradrs2023/organizacao">Organização</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
-</div>
 
 	
 	<header>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container container_header">
+      <div class="row">
+        <div class="div_logo_eradrs" style="position: relative;">
+          <a class="logo_eradrs_anchor" href="/eradrs2023">
+            <img class="p-1 logo_eradrs" src="img/Branco.png" alt="logo eradrs 2023">
+          </a>
+          <a class="logo_sbc_anchor" href="https://www.sbc.org.br/" target="_blank">
+            <span>Realização:</span>
+            <img class="logo_sbc"src="img/SBC.svg" alt="logo sbc">
+          </a>
+        </div>
+      </div>
+      <h1 class="pt-4 display-6 text-white text-center">XXIII Escola Regional de Alto Desempenho da Região Sul</h1>
+    </div>
+  </div>
+</header>
+
+<!--<header>
   <div class="jumbotron jumbotron-fluid">
     <div class="container" style="padding-top: 135px;">
       <div class="row align-items-center">
@@ -101,7 +131,8 @@
       </div>
     </div>
   </div>
-</header>
+</header>-->
+
 
 	<!-- <section id="light-card">
   <div class="p-2 container col-sm-12 col-lg-8 text-justify">
