@@ -1,32 +1,30 @@
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.author }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="author" content="{{ site.author }}" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
     <meta name="google-site-verification" content="ZBSCYNmelS0V4psFsJ_CrSEc3HA-jK_DyeoAeM0UXlM" />
 
-    <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}
-    </title>
+    <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+        crossorigin="anonymous"
+    />
 
     <!-- Custom styles for this theme 
     <link rel="icon" href="/img/favicon.ico">-->
-    <link rel="stylesheet" href="/eradrs2023/assets/css/header.css">
-    <link rel="stylesheet" href="/eradrs2023/assets/css/navbar.css">
-    <link rel="stylesheet" href="/eradrs2023/assets/css/home.css">
-    <link rel="stylesheet" href="/eradrs2023/assets/css/fontes.css">
-    <link rel="stylesheet" href="/eradrs2023/assets/css/footer.css">
-    <link rel="stylesheet" href="/eradrs2023/assets/css/inscricoes.css">
+    <link rel="stylesheet" href="/eradrs2023/assets/css/header.css" />
+    <link rel="stylesheet" href="/eradrs2023/assets/css/navbar.css" />
+    <link rel="stylesheet" href="/eradrs2023/assets/css/home.css" />
+    <link rel="stylesheet" href="/eradrs2023/assets/css/fontes.css" />
+    <link rel="stylesheet" href="/eradrs2023/assets/css/footer.css" />
+    <link rel="stylesheet" href="/eradrs2023/assets/css/inscricoes.css" />
 
-    {% seo %}
-
-    {% if site.google_analytics %}
-    {% include analytics.html %}
-    {% endif %}
+    {% seo %} {% if site.google_analytics %} {% include analytics.html %} {% endif %}
 </head>

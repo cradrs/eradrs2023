@@ -1,51 +1,57 @@
 IC:
-  - sessao: IC1 - Aplicações - 18/04 (14:30 - 15:30)
-    chair: Guilherme Galante (UNIOESTE)
-    local: Sala 102 da Informática
-    artigos:
-      - titulo: Paralelização de uma Aplicação de Câmara de Mistura com OpenMP
-        autores: Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-      - titulo: Uso de Rotinas StarPU em Simulação de Secagem de Grãos
-        autores: Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-      - titulo: Otimizando o diagnóstico automatizado de glaucoma a partir de imagens de fundo de olho
-        autores: Lucas Ceschini (UNISINOS), Lucas Policarpo (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Rodrigo Righi (UNISINOS) e Gabriel Ramos (UNISINOS)
-      - titulo: Aplicação de Vídeo com Flink, Storm e SPar em Multicores
-        autores: Leonardo Faé (PUCRS),  Dalvan Griebler (PUCRS/SETREM - Brazil) e Isabel Manssour (PUCRS)
-  - sessao: IC2 - Paralelismo - 19/04 (14:30 - 15:30)
-    chair: Charles Miers (UDESC)
-    local: Sala 102 da Informática
-    artigos:
-      - titulo: Paralelização de uma Aplicação de Câmara de Mistura com OpenMP
-        autores: Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-      - titulo: Uso de Rotinas StarPU em Simulação de Secagem de Grãos
-        autores: Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-      - titulo: Otimizando o diagnóstico automatizado de glaucoma a partir de imagens de fundo de olho
-        autores: Lucas Ceschini (UNISINOS), Lucas Policarpo (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Rodrigo Righi (UNISINOS) e Gabriel Ramos (UNISINOS)
-      - titulo: Aplicação de Vídeo com Flink, Storm e SPar em Multicores
-        autores: Leonardo Faé (PUCRS),  Dalvan Griebler (PUCRS/SETREM - Brazil) e Isabel Manssour (PUCRS)
-  - sessao: IC3 - Virtualização e Nuvem - 20/04 (14:30 - 15:30)
-    chair: Edmar Belorini (UNIOESTE)
-    local: Sala 102 da Informática
-    artigos:
-      - titulo: Paralelização de uma Aplicação de Câmara de Mistura com OpenMP
-        autores: Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-      - titulo: Uso de Rotinas StarPU em Simulação de Secagem de Grãos
-        autores: Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-      - titulo: Otimizando o diagnóstico automatizado de glaucoma a partir de imagens de fundo de olho
-        autores: Lucas Ceschini (UNISINOS), Lucas Policarpo (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Rodrigo Righi (UNISINOS) e Gabriel Ramos (UNISINOS)
-      - titulo: Aplicação de Vídeo com Flink, Storm e SPar em Multicores
-        autores: Leonardo Faé (PUCRS),  Dalvan Griebler (PUCRS/SETREM - Brazil) e Isabel Manssour (PUCRS)
+    - sessao: IC1 - Aplicações - 18/04 (14:30 - 15:30)
+      chair: Guilherme Galante (UNIOESTE)
+      local: Sala 102 da Informática
+      artigos:
+          - titulo: Paralelização de uma Aplicação de Câmara de Mistura com OpenMP
+            autores: Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
+          - titulo: Uso de Rotinas StarPU em Simulação de Secagem de Grãos
+            autores: Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
+          - titulo: Otimizando o diagnóstico automatizado de glaucoma a partir de imagens de fundo de olho
+            autores:
+                Lucas Ceschini (UNISINOS), Lucas Policarpo (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Rodrigo Righi (UNISINOS) e
+                Gabriel Ramos (UNISINOS)
+          - titulo: Aplicação de Vídeo com Flink, Storm e SPar em Multicores
+            autores: Leonardo Faé (PUCRS),  Dalvan Griebler (PUCRS/SETREM - Brazil) e Isabel Manssour (PUCRS)
+    - sessao: IC2 - Paralelismo - 19/04 (14:30 - 15:30)
+      chair: Charles Miers (UDESC)
+      local: Sala 102 da Informática
+      artigos:
+          - titulo: Paralelização de uma Aplicação de Câmara de Mistura com OpenMP
+            autores: Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
+          - titulo: Uso de Rotinas StarPU em Simulação de Secagem de Grãos
+            autores: Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
+          - titulo: Otimizando o diagnóstico automatizado de glaucoma a partir de imagens de fundo de olho
+            autores:
+                Lucas Ceschini (UNISINOS), Lucas Policarpo (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Rodrigo Righi (UNISINOS) e
+                Gabriel Ramos (UNISINOS)
+          - titulo: Aplicação de Vídeo com Flink, Storm e SPar em Multicores
+            autores: Leonardo Faé (PUCRS),  Dalvan Griebler (PUCRS/SETREM - Brazil) e Isabel Manssour (PUCRS)
+    - sessao: IC3 - Virtualização e Nuvem - 20/04 (14:30 - 15:30)
+      chair: Edmar Belorini (UNIOESTE)
+      local: Sala 102 da Informática
+      artigos:
+          - titulo: Paralelização de uma Aplicação de Câmara de Mistura com OpenMP
+            autores: Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
+          - titulo: Uso de Rotinas StarPU em Simulação de Secagem de Grãos
+            autores: Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
+          - titulo: Otimizando o diagnóstico automatizado de glaucoma a partir de imagens de fundo de olho
+            autores:
+                Lucas Ceschini (UNISINOS), Lucas Policarpo (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Rodrigo Righi (UNISINOS) e
+                Gabriel Ramos (UNISINOS)
+          - titulo: Aplicação de Vídeo com Flink, Storm e SPar em Multicores
+            autores: Leonardo Faé (PUCRS),  Dalvan Griebler (PUCRS/SETREM - Brazil) e Isabel Manssour (PUCRS)
 
 PG:
-  - sessao: 
-      chair: 
-      local: 
-      artigos:
-        - titulo: 
-          autores:
-        - titulo: 
-          autores:
-        - titulo: 
-          autores:
-        - titulo: 
-          autores:
+    - sessao:
+          chair:
+          local:
+          artigos:
+              - titulo:
+                autores:
+              - titulo:
+                autores:
+              - titulo:
+                autores:
+              - titulo:
+                autores:
