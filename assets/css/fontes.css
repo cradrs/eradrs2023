@@ -2,15 +2,9 @@
     li,
     td,
     th,
-    p.lead {
+    p.lead,
+    li.lead {
         font-size: 0.8rem;
-    }
-
-    h4 {
-        font-size: 1rem;
-        padding: 1rem 1.5rem;
-        font-weight: 300;
-        line-height: 1.2;
     }
 
     h6 {
