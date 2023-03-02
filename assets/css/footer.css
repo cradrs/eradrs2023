@@ -9,3 +9,14 @@
 .logo_cradrs_footer {
     width: 40%;
 }
+
+.social-icons {
+    background-color: #212529;
+    color: white;
+}
+
+.social-icons svg {
+    padding: 4px 4px;
+    width: 25px;
+    color: white;
+}
