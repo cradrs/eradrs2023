@@ -5,5 +5,83 @@ layout: default
 <section id="light-card">
     <div class="p-2 container col-sm-12 col-lg-8 text-justify">
         <h2 class="p-4 text-center">Cronograma</h2>
+        <p class="lead text-center">
+            Em breve o cronograma completo do evento estará disponível.
+        </p>
+        <br>
+        <div>
+            <div class="row">
+                <ul class="nav nav-tabs justify-content-center" id="schedule-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="first-day-tab" data-bs-toggle="tab" data-bs-target="#first-day-schedule" type="button" role="tab" aria-controls="first-day-schedule" aria-selected="true">
+                            1º dia
+                            <br>
+                            10 de maio de 2023
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="second-day-tab" data-bs-toggle="tab" data-bs-target="#second-day-schedule" type="button" role="tab" aria-controls="second-day-schedule" aria-selected="true">
+                            2º dia
+                            <br>
+                            11 de maio de 2023
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="third-day-tab" data-bs-toggle="tab" data-bs-target="#third-day-schedule" type="button" role="tab" aria-controls="third-day-schedule" aria-selected="true">
+                            3º dia
+                            <br>
+                            12 de maio de 2023
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div id="first-day-schedule" class="tab-pane show active" role="tabpanel" aria-labelledby="first-day-tab">
+                    {% for session in site.data.cronograma.day1 %}
+                    <div class="row">
+                        <div class="col-md-2 schedule-info">
+                            <span>{{ session.start_time }} - {{ session.end_time }}</span>
+                            <br>
+                            <span>{{ session.location }}</span>
+                        </div>
+                        <div class="col-md-10 schedule-info">
+                            <h5>{{ session.title }}</h5>
+                            <h6>{{ session.description }}</h6>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div id="second-day-schedule" class="tab-pane" role="tabpanel" aria-labelledby="second-day-tab">
+                    {% for session in site.data.cronograma.day2 %}
+                    <div class="row">
+                        <div class="col-md-2 schedule-info">
+                            <span>{{ session.start_time }} - {{ session.end_time }}</span>
+                            <br>
+                            <span>{{ session.location }}</span>
+                        </div>
+                        <div class="col-md-10 schedule-info">
+                            <h5>{{ session.title }}</h5>
+                            <h6>{{ session.description }}</h6>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div id="third-day-schedule" class="tab-pane" role="tabpanel" aria-labelledby="third-day-tab">
+                    {% for session in site.data.cronograma.day3 %}
+                    <div class="row">
+                        <div class="col-md-2 schedule-info">
+                            <span>{{ session.start_time }} - {{ session.end_time }}</span>
+                            <br>
+                            <span>{{ session.location }}</span>
+                        </div>
+                        <div class="col-md-10 schedule-info">
+                            <h5>{{ session.title }}</h5>
+                            <h6>{{ session.description }}</h6>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
 </section>

@@ -1,0 +1,41 @@
+day1:
+    - title: "Registro"
+      description: "Credenciamento no evento"
+      start_time: "8:00"
+      end_time: "9:00"
+      location: "Sala 514"
+    - title: "Lorem Ipsum"
+      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      start_time: "9:00"
+      end_time: "10:30"
+      location: "Sala 515"
+      speakers:
+        - name: "John Doe"
+          university: "PUCRS"
+    - title: "IC1 - Aplicações"
+      start_time: "13:00"
+      end_time: "14:30"
+      location: "Sala 516"
+      chairs:
+        - name: "John Doe"
+          university: "PUCRS"
+      papers:
+        - title: "Paralelização de uma Aplicação de Câmara de Mistura com OpenMP"
+          authors: "Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)"
+        - title: "Uso de Rotinas StarPU em Simulação de Secagem de Grãos"
+          authors: "Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)"
+      
+day2:
+    - title: "Registro II"
+      description: "Credenciamento no evento"
+      start_time: "8:00"
+      end_time: "9:00"
+      location: "Sala 514"
+      
+day3:
+    - title: "Registro III"
+      description: "Credenciamento no evento"
+      start_time: "8:00"
+      end_time: "9:00"
+      location: "Sala 514"
+      
