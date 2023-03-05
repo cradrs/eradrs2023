@@ -1,0 +1,523 @@
+schedule:
+  - 
+    id: "day-one"
+    event-day: "1º dia"
+    calendar-day: "18 de abril de 2022"
+    events:
+      - title: "Registro"
+        description: "Observação: disponibilizaremos a Sala 101 para acesso à Internet e secretaria permanente durante o evento (após o horário de registro)."
+        type: "general"
+        start_time: "8:00"
+        end_time: "9:00"
+        room: "Saguão da Informática"
+      - title: "Minicurso 1 - Aplicações paralelas adaptativas: uma revisão de 2001 a 2021, desde arquiteturas de memória compartilhada até computação em névoa (1ª parte)"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso1"
+        type: "workshop"
+        start_time: "9:00"
+        end_time: "10:30"
+        room: "Auditório da Informática"
+        speakers:
+          - name: "Rodrigo da Rosa Righi"
+            institution: "UNISINOS"
+          - name: "Guilherme Galante"
+            institution: "UNIOESTE"
+      - title: "Minicurso 2 - Programe sua GPU com OpenMP (1ª parte)"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso2"
+        type: "workshop"
+        start_time: "9:00"
+        end_time: "10:30"
+        room: "Lab. 1/2 da Informática"
+        speakers:
+          - name: "Hermes Senger"
+            institution: "UFSCAR"
+          - name: "Jaime Freire de Souza"
+            institution: "UFSCAR"
+      - title: "Minicurso 3 - Introdução à programação com memória persistente (1ª parte)"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso3"
+        type: "workshop"
+        start_time: "9:00"
+        end_time: "10:30"
+        room: "Lab. 5 da Informática"
+        speakers:
+          - name: "Alexandro Baldassin"
+            institution: "UNESP"
+          - name: "Emilio Francesquini"
+            institution: "UFABC"
+      - title: "Coffee-Break"
+        type: "general"
+        start_time: "10:30"
+        end_time: "11:00"
+        room: "2º Andar da Informática"
+      - title: "Minicurso 1 - Aplicações paralelas adaptativas: uma revisão de 2001 a 2021, desde arquiteturas de memória compartilhada até computação em névoa (2ª parte)"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso1"
+        type: "workshop"
+        start_time: "11:00"
+        end_time: "12:00"
+        room: "Auditório da Informática"
+        speakers:
+          - name: "Rodrigo da Rosa Righi"
+            institution: "UNISINOS"
+          - name: "Guilherme Galante"
+            institution: "UNIOESTE"
+      - title: "Minicurso 2 - Programe sua GPU com OpenMP (2ª parte)"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso2"
+        type: "workshop"
+        start_time: "11:00"
+        end_time: "12:00"
+        room: "Lab. 1/2 da Informática"
+        speakers:
+          - name: "Hermes Senger"
+            institution: "UFSCAR"
+          - name: "Jaime Freire de Souza"
+            institution: "UFSCAR"
+      - title: "Minicurso 3 - Introdução à programação com memória persistente (2ª parte)"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso3"
+        type: "workshop"
+        start_time: "11:00"
+        end_time: "12:00"
+        room: "Lab. 5 da Informática"
+        speakers:
+          - name: "Alexandro Baldassin"
+            institution: "UNESP"
+          - name: "Emilio Francesquini"
+            institution: "UFABC"
+      - title: "Almoço"
+        type: "general"
+        start_time: "12:00"
+        end_time: "13:30"
+      - title: "Aprendizado de Máquinas: desafios e perspectivas para processamento de alto desempenho"
+        link: "https://web.inf.ufpr.br/erad2022/palestras-2/#palestra1"
+        type: "lecture"
+        start_time: "13:30"
+        end_time: "14:30"
+        room: "Auditório de Química"
+        speakers:
+          - name: "Luiz Eduardo Soares de Oliveira"
+            institution: "UFPR"
+      - title: "IC1 - Aplicações"
+        link: "https://web.inf.ufpr.br/erad2022/artigos-aceitos/#ic1"
+        type: "ictrack"
+        start_time: "14:30"
+        end_time: "15:30"
+        room: "Sala 102 da Informática"
+        chairs:
+          - name: "Guilherme Galante"
+            institution: "UNIOESTE"
+        papers:
+          - title: Paralelização de uma Aplicação de Câmara de Mistura com OpenMP
+            authors: Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
+          - title: Uso de Rotinas StarPU em Simulação de Secagem de Grãos
+            authors: Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
+          - title: Otimizando o diagnóstico automatizado de glaucoma a partir de imagens de fundo de olho
+            authors: Lucas Ceschini (UNISINOS), Lucas Policarpo (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Rodrigo Righi (UNISINOS) e Gabriel Ramos (UNISINOS)
+          - title: Aplicação de Vídeo com Flink, Storm e SPar em Multicores
+            authors: Leonardo Faé (PUCRS),  Dalvan Griebler (PUCRS/SETREM – Brazil) e Isabel Manssour (PUCRS)
+      - title: "PG1 - IoT e Sistemas Embarcados"
+        link: "https://web.inf.ufpr.br/erad2022/artigos-aceitos/#pg1"
+        type: "pgtrack"
+        start_time: "14:30"
+        end_time: "15:30"
+        room: "Auditório da Informática"
+        chairs:
+          - name: "Mauricio Pillon"
+            institution: "UDESC"
+        papers:
+          - title: Compressão de Dados MIoT para Melhorar Desempenho da Rede Mantendo QoS
+            authors: Alexandre Andrade (UNISINOS), Rodrigo Righi (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Arthur Cabral (UNISINOS) e Bárbara Canali Locatelli Bellini (UNISINOS)
+          - title: Utilizando IoT para Gerenciamento Elástico e Eficiente de Recursos em Hospitais Inteligentes
+            authors: Gabriel Fischer (UNISINOS) e Rodrigo Righi (UNISINOS)
+          - title: Uma proposta de análise comparativa de desempenho entre NB-IoT e LoRaWAN para aplicação em redes IIoT privadas
+            authors: Danilo Carvalho (UDESC) e Charles Miers (UDESC)
+          - title: Towards Efficient Stream Parallelism for Embedded Devices
+            authors: Renato Barreto Hoffmann Filho (PUCRS), Dalvan Griebler (PUCRS/SETREM) e Luiz Gustavo Fernandes (PUCRS)
+      - title: "Coffee-Break"
+        type: "general"
+        start_time: "15:30"
+        end_time: "16:00"
+        room: "2º Andar da Informática"
+      - title: "Maratona Prog. Paralela Warm-up"
+        link: "https://web.inf.ufpr.br/erad2022/maratona/"
+        type: "general"
+        start_time: "16:00"
+        end_time: "17:30"
+        room: "Lab. 5 da Informática"
+      - title: "Olist – Organização e arquitetura do nosso time de dados"
+        link: "https://web.inf.ufpr.br/erad2022/palestras-2/#indtalk1"
+        type: "lecture"
+        start_time: "16:00"
+        end_time: "16:30"
+        room: "Auditório de Informática"
+        speakers:
+          - name: "Francisco Arpino Magioli"
+            institution: "Olist"
+      - title: "Women in HPC Affiliate Região Sul do Brasil"
+        link: "https://web.inf.ufpr.br/erad2022/whpc/"
+        type: "general"
+        start_time: "16:30"
+        end_time: "17:00"
+        room: "Auditório de Informática"
+      - title: "PG2 - Aprendizado de máquina e HPC"
+        link: "https://web.inf.ufpr.br/erad2022/artigos-aceitos/#pg2"
+        type: "pgtrack"
+        start_time: "17:00"
+        end_time: "18:30"
+        room: "Auditório da Informática"
+        chairs:
+          - name: "Matheus Serpa"
+            institution: "UFRGS"
+        papers:
+          - title: Proposta de aprimoramento da relação Z-R de estimativa de precipitação utilizando aprendizagem de máquina
+            authors: Fernanda Verdelho (UFPR/SIMEPAR), Marco Alves (UFPR), Luiz Oliveira (UFPR) e Cesar Beneti (SIMEPAR)
+          - title: Uma Proposta Preliminar para Alocação de Redes Virtuais Usando Aprendizagem por Reforço
+            authors: Beatriz Martins (UDESC) e Guilherme Koslovski (UDESC)
+          - title: Modelo de Machine Learning em Tempo Real para Agricultura de Precisão
+            authors: Rogerio P dos Santos (Universidade Lusofona – Brazil), Valderi Leithardt (Instituto Politécnico de Portoalegre – Portugal) e Marko Beko (University LusofonaULHT – Portugal)
+          - title: Uma arquitetura escalável e segura para a execução de aprendizado federado no contexto de hospitais inteligentes
+            authors: Lucas Policarpo (UNISINOS), Lucas Ceschini (UNISINOS), Vinicius Facco Rodrigues (UNISINOS) e Rodrigo Righi (UNISINOS)
+          - title: Simulando padrões de acesso a memória com Wasserstein-GAN
+            authors: Arnon Ventrilho dos Santos (UFPR), Francis Moreira (UFPR) e Marco Alves (UFPR)
+          - title: Otimização do Desempenho em Memórias Transacionais com Aprendizado de Máquina
+            authors: Tiago Perlin (UFPEL) e Andre Du Bois (UFPEL)
+      - title: "Abertura - Organização & CRAD"
+        type: "general"
+        start_time: "18:30"
+        end_time: "19:00"
+        room: "Auditório da Química"
+      - title: "Confraternização de boas vindas"
+        link: "https://web.inf.ufpr.br/erad2022/programacao-social/"
+        type: "general"
+        start_time: "19:00"
+        end_time: "20:30"
+        room: "God Save The Beer"
+      
+  - 
+    id: day-two
+    event-day: "2º dia"
+    calendar-day: "19 de abril de 2022"
+    events:
+      - title: "Visita ao Jardim Botânico"
+        link: "https://web.inf.ufpr.br/erad2022/programacao-social/"
+        type: "general"
+        start_time: "08:00"
+        end_time: "09:30"
+        room: "Jardim Botânico"
+      - title: "Minicurso 4 - Computação de Alto Desempenho em Julia (1ª parte)"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso4"
+        type: "workshop"
+        start_time: "09:30"
+        end_time: "10:30"
+        room: "Lab. 1/2 da Informática"
+        speakers:
+          - name: "Roberto Machado Velho"
+            institution: "IMPA"
+          - name: "Rafael Benchimol Klausner"
+            institution: "PSR Consultoria Ltda."
+          - name: "Matheus da Silva Serpa"
+            institution: "UFRGS"
+      - title: "Minicurso 5 - Coisas para saber antes de fazer o seu próprio Benchmarks Game (1ª parte)"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso5"
+        type: "workshop"
+        start_time: "09:30"
+        end_time: "10:30"
+        room: "Lab. 5 da Informática"
+        speakers:
+          - name: "Alfredo Goldman"
+            institution: "USP"
+          - name: "Sarita Mazzini Bruschi"
+            institution: "USP"
+          - name: "Elisa Uhura"
+            institution: "USP"
+      - title: "Coffee-Break"
+        type: "general"
+        start_time: "10:30"
+        end_time: "11:00"
+      - title: "Minicurso 4 - Computação de Alto Desempenho em Julia (2ª parte)"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso4"
+        type: "workshop"
+        start_time: "11:00"
+        end_time: "12:00"
+        room: "Lab. 1/2 da Informática"
+        speakers:
+          - name: "Roberto Machado Velho"
+            institution: "IMPA"
+          - name: "Rafael Benchimol Klausner"
+            institution: "PSR Consultoria Ltda."
+          - name: "Matheus da Silva Serpa"
+            institution: "UFRGS"
+      - title: "Minicurso 5 - Coisas para saber antes de fazer o seu próprio Benchmarks Game (2ª parte)"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso5"
+        type: "workshop"
+        start_time: "11:00"
+        end_time: "12:00"
+        room: "Lab. 5 da Informática"
+        speakers:
+          - name: "Alfredo Goldman"
+            institution: "USP"
+          - name: "Sarita Mazzini Bruschi"
+            institution: "USP"
+          - name: "Elisa Uhura"
+            institution: "USP"
+      - title: "Almoço"
+        type: "general"
+        start_time: "12:00"
+        end_time: "13:30"
+      - title: "Redes Blockchain e o desafio da escalabilidade"
+        link: "https://web.inf.ufpr.br/erad2022/palestras-2/#palestra2"
+        type: "lecture"
+        start_time: "13:30"
+        end_time: "14:30"
+        room: "Auditório de Química"
+        speakers:
+          - name: "Fausto Vanin"
+            institution: "???"
+      - title: "Maratona Prog. Paralela"
+        link: "https://web.inf.ufpr.br/erad2022/maratona/"
+        type: "general"
+        start_time: "14:30"
+        end_time: "18:30"
+        room: "Lab. 5 da Informática"
+      - title: "IC2 - Paralelismo"
+        link: "https://web.inf.ufpr.br/erad2022/artigos-aceitos/#ic2"
+        type: "ictrack"
+        start_time: "14:30"
+        end_time: "15:30"
+        room: "Sala 102 da Informática"
+        chairs:
+          - name: "Charles Miers"
+            institution: "UDESC"
+        papers:
+          - title: Análise e Geração de Resultados sobre Implementação de Método Runge-Kutta em CUDA
+            authors: Nórton Lopes Moreira (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
+          - title: Um Estudo do Impacto da Frequências de Operação do uncore na execução de Aplicações Paralelas
+            authors: Leonardo Sonco (Unipampa), Arthur Lorenzon (Unipampa), Marcelo Caggiani Luizelli (Unipampa) e Fabio Rossi (IFFAR)
+          - title: Avaliação da aplicação de paralelismo em classificadores taxonômicos usando Qiime2
+            authors: Caetano Müler (PUCRS), Júnior Löff (PUCRS), Dalvan Griebler (PUCRS/SETREM) e Eduardo Eizirik (PUCRS – Brazil)
+          - title: Compressão de Dados em Clusters HPC com Flink, MPI e SPar
+            authors: Greice Welter (SETREM), Gabriel Fim (Setrem – Brazil), Júnior Löff (PUCRS – Brazil) e Dalvan Griebler (PUCRS/SETREM – Brazil)
+          - title: Análise da Escalabilidade de Aplicações Paralelas em Sistemas Embarcados Multiprocessados na Borda
+            authors: Ueslei Brandt (UNIPAMPA), Fabio Rossi (IFFAR), Marcelo Caggiani Luizelli (UNIPAMPA) e Arthur Lorenzon (UNIPAMPA)
+      - title: "PG3 - Tolerância a falhas e predição de desempenho"
+        link: "https://web.inf.ufpr.br/erad2022/artigos-aceitos/#pg3"
+        type: "pgtrack"
+        start_time: "14:30"
+        end_time: "15:30"
+        room: "Auditório da Informática"
+        chairs:
+          - name: "Márcia Pasin"
+            institution: "UFSM"
+        papers:
+          - title: Benchmarking the scalability of MPI-based parallel solvers for fluid dynamics in low-budget cloud infrastructure
+            authors: Vanderlei Pereira Filho (UFSC) e Márcio Castro (UFSC)
+          - title: Estudo e Aplicação de MBPTA para Obtenção de pWCET em Sistemas de Tempo Real com Processadores Manycore que Utilizam Networks-on-Chip
+            authors: Bruno Miranda (UFSC), Márcio Castro (UFSC) e Romulo Silva de Oliveira (UFSC)
+          - title: A novel fog-cloud architecture to process serverless functions with adaptive timeout
+            authors: Gustavo Setti Cassel (UNISINOS), Rodrigo Righi (UNISINOS) e Vinicius Facco Rodrigues (UNISINOS)
+          - title: Métricas e Critérios de Disparo para Instrumentar o Balanceamento de Réplicas no HDFS
+            authors: Rhauani Fazul (UFSM) e Patricia Pitthan Barcelos (UFSM)
+      - title: "Coffee-Break"
+        type: "general"
+        start_time: "15:30"
+        end_time: "16:00"
+        room: "2º Andar da Informática"
+      - title: "Fineasy Tech – HPC no dia a dia de uma empresa"
+        link: "https://web.inf.ufpr.br/erad2022/palestras-2/#indtalk2"
+        type: "lecture"
+        start_time: "16:00"
+        end_time: "16:30"
+        room: "Auditório de Informática"
+        speakers:
+          - name: "Eduardo Roloff"
+            institution: "Fineasy Tech"
+      - title: "Women in HPC Affiliate Região Sul do Brasil"
+        link: "https://web.inf.ufpr.br/erad2022/whpc/"
+        type: "general"
+        start_time: "16:30"
+        end_time: "17:00"
+        room: "Auditório de Informática"
+      - title: "PG4 - Algoritmos paralelos e distribuídos"
+        link: "https://web.inf.ufpr.br/erad2022/artigos-aceitos/#pg4"
+        type: "pgtrack"
+        start_time: "17:00"
+        end_time: "18:30"
+        room: "Sala 102 da Informática"
+        chairs:
+          - name: "Edson Padoin"
+            institution: "UNIJUI"
+        papers:
+          - title: Paralelizando metaheurística em Python para solução do Team Orienteering Problem
+            authors: Tiago Funk (UDESC) e Adriano Fiorese (UDESC)
+          - title: Métodos para simulação Barnes-Hut distribuída com MPI
+            authors: Rodrigo Morante Blanco (UFPR) e Wagner Zola (UFPR)
+          - title: "ANN-RSFK: Busca genérica de similaridade em GPU"
+            authors: Bruno Meyer (UFPR), Aurora Pozo (UFPR) e Wagner Zola (UFPR)
+          - title: Proposta de Framework para Processamento Distribuído em C++ utilizando o MPI
+            authors: Júnior Löff (PUCRS), Dalvan Griebler (PUCRS/SETREM) e Luiz Gustavo Fernandes (PUCRS)
+          - title: Padrões de programação paralela em nuvens computacionais
+            authors: Cristiane de Andrade (UNIOESTE) e Guilherme Galante (UNIOESTE)
+          - title: "Avaliação do Esforço de Programação em GPU: Estudo Piloto"
+            authors: Gabriella Andrade (GMAP/PPGCC/PUCRS), Dalvan Griebler (PUCRS/SETREM) e Luiz Gustavo Fernandes (PUCRS)
+          - title: Um Framework para Criar Benchmarks de Aplicações Paralelas de Stream
+            authors: Adriano Garcia (PUCRS), Dalvan Griebler (PUCRS/SETREM), Claudio Schepke (UNIPAMPA) e Luiz Gustavo Fernandes (PUCRS)
+      - title: "PG5 - Arquitetura de computadores"
+        link: "https://web.inf.ufpr.br/erad2022/artigos-aceitos/#pg5"
+        type: "pgtrack"
+        start_time: "17:00"
+        end_time: "18:30"
+        room: "Auditório da Informática"
+        chairs:
+          - name: "Edmar Belorini"
+            institution: "UNIOESTE"
+        papers:
+          - title: Proposta de conversão automática em hardware de instruções para a execução em memória
+            authors: Rodrigo Sokulski (UFPR) e Marco Alves (UFPR)
+          - title: Processing-In-Memory of Data Filter On Compressed Data
+            authors: Tiago Kepe (UFPR)
+          - title: Mecanismo oráculo dinâmico para predição do uso da LLC
+            authors: Mariana Carmin (UFPR), Francis Moreira (UFPR) e Marco Alves (UFPR)
+          - title: Comparação de desempenho do processamento paralelo de consultas de banco de dados em CPUs multi-core e GPUs
+            authors: Simone Dominico (UFPR), Marco Alves (UFPR) e Eduardo de Almeida (UFPR)
+          - title: "Memory Bandwidth: What can we improve?"
+            authors: Francis Moreira (UFPR) e Marco Alves (UFPR)
+          - title: Impacto da Largura do Vetor de Instruções SIMD em Arquiteturas de Processamento Próximo à Memória
+            authors: Sairo Raoni dos Santos (UFERSA) e Marco Alves (UFPR)
+          - title: Implementação de instruções de Memória Transacional em Hardware no OpenMP
+            authors: Fernando Puntel (UFSM) e Gerson Geraldo H. Cavalheiro (UFPel)
+      - title: "Happy hour"
+        link: "https://web.inf.ufpr.br/erad2022/programacao-social/"
+        type: "general"
+        start_time: "19:00"
+        end_time: "20:30"
+        room: "Prainha do Itupava"
+
+  - 
+    id: day-three
+    event-day: "3º dia"
+    calendar-day: "20 de abril de 2022"
+    events:
+      - title: "Minicurso 6 - Acelerando kernels de Machine Learning em processadores multicore e vetorial"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso6"
+        type: "workshop"
+        start_time: "08:30"
+        end_time: "10:30"
+        room: "Lab. 1/2 da Informática"
+        speakers:
+          - name: "Matheus da Silva Serpa"
+            institution: "UFRGS"
+          - name: "Félix Dal Pont Michels Júnior"
+            institution: "UFRGS"
+          - name: "Philippe Olivier Alexandre Navaux"
+            institution: "UFRGS"
+      - title: "Minicurso 7 - Apresentação de resultados experimentais para Processamento de Alto Desempenho em R"
+        link: "https://web.inf.ufpr.br/erad2022/minicursos/#minicurso7"
+        type: "workshop"
+        start_time: "08:30"
+        end_time: "10:30"
+        room: "Lab. 5 da Informática"
+        speakers:
+          - name: "Vinícius Garcia Pinto"
+            institution: "FURG"
+          - name: "Lucas Leandro Nesi"
+            institution: "UFRGS"
+          - name: "Lucas Mello Schnorr"
+            institution: "UFRGS"
+      - title: "Reunião CRAD"
+        type: "general"
+        start_time: "08:30"
+        end_time: "10:30"
+        room: "Auditório da Informática"
+      - title: "Coffee-Break"
+        type: "general"
+        start_time: "10:30"
+        end_time: "11:00"
+        room: "2º Andar da Informática"
+      - title: "SDC – DL, HPC, A.I. — Densidade, aplicações e soluções"
+        link: "https://web.inf.ufpr.br/erad2022/palestras-2/#indtalk3"
+        type: "lecture"
+        start_time: "11:00"
+        end_time: "12:00"
+        room: "Auditório de Informática"
+        speakers:
+          - name: "Guilherme Friol"
+            institution: "SDC"
+      - title: "Almoço"
+        type: "general"
+        start_time: "12:00"
+        end_time: "13:30"
+      - title: "In-Memory DBMS for High-Performance Memories"
+        link: "https://web.inf.ufpr.br/erad2022/palestras-2/#palestra3"
+        type: "lecture"
+        start_time: "13:30"
+        end_time: "14:30"
+        room: "Auditório de Química"
+        speakers:
+          - name: "Eduardo Cunha de Almeida"
+            institution: "UFPR"
+      - title: "IC3 - Virtualização e Nuvem"
+        link: "https://web.inf.ufpr.br/erad2022/artigos-aceitos/#ic3"
+        type: "ictrack"
+        start_time: "14:30"
+        end_time: "15:30"
+        room: "Sala 102 da Informática"
+        chairs:
+          - name: "Edmar Belorini"
+            institution: "UNIOESTE"
+        papers:
+          - title: Explorando a Elasticidade em Nível de Sistema Operacional
+            authors: Valquíria Belusso (UNIOESTE) e Guilherme Galante (UNIOESTE)
+          - title: "Sharding para Acesso Rápido a Dados Móveis e Distribuídos: Uma Aplicação para Smart Cities com Fog Computing"
+            authors: Daniel Ferreira (UNISINOS) e Rodrigo Righi (UNISINOS)
+          - title: Virtualização e Migração de Processos em um Sistema Operacional Distribuído para Lightweight Manycores
+            authors: Nicolas Vanz (UFSC), João Souto (UFSC) e Márcio Castro (UFSC)
+          - title: "Kata e runC runtime usando Docker: uma comparação de desempenho na perspectiva de rede"
+            authors: Henrique Zanela Cochak (UDESC) e Charles Miers (UDESC)
+          - title: Proposta de análise de desempenho no uso de políticas segurança de rede nativas Kubernetes vs. SPIFFE
+            authors: Nikolas Jensen (UDESC) e Charles Miers (UDESC)
+      - title: "PG6 - Computação Heterogênea"
+        link: "https://web.inf.ufpr.br/erad2022/artigos-aceitos/#pg6"
+        type: "pgtrack"
+        start_time: "14:30"
+        end_time: "15:30"
+        room: "Auditório da Informática"
+        chairs:
+          - name: "Guilherme Galante"
+            institution: "UNIOESTE"
+        papers:
+          - title: Provendo melhorias na GSParLib
+            authors: Gabriell Araujo (PUCRS), Dalvan Griebler (PUCRS/SETREM) e Luiz Gustavo Fernandes (PUCRS)
+          - title: Impacto do uso da Memória Virtual Unificada CPU-GPU
+            authors: Jorge Correia (UFPR) e Wagner Zola (UFPR)
+          - title: "MinhaHistoriaDigital: An Scalable Fog-Based Architecture for Efficient Vital Signs Monitoring over Smart Cities"
+            authors: Vinicius Facco Rodrigues (UNISINOS) e Rodrigo Righi (UNISINOS)
+          - title: Encontrando a Configuração de Threads por Bloco para os Kernels NPB-CUDA com Q-Learning
+            authors: Claudio Scheer (PUCRS), Gabriell Araujo (PUCRS), Dalvan Griebler (PUCRS/SETREM), Felipe Meneguzzi (PUCRS) e Luiz Gustavo Fernandes (PUCRS)
+      - title: "Coffee-Break"
+        type: "general"
+        start_time: "15:30"
+        end_time: "16:00"
+        room: "2º Andar da Informática"
+      - title: "Hewlett Packard Enterprise – Processamento Intensivo de Dados na Era de Exaescala"
+        link: "https://web.inf.ufpr.br/erad2022/palestras-2/#indtalk4"
+        type: "lecture"
+        start_time: "16:00"
+        end_time: "16:30"
+        room: "Auditório de Informática"
+        speakers:
+          - name: "Mônica Costa"
+            institution: "HPE"
+      - title: "Women in HPC Affiliate Região Sul do Brasil"
+        link: "https://web.inf.ufpr.br/erad2022/whpc/"
+        type: "general"
+        start_time: "16:30"
+        end_time: "17:00"
+        room: "Auditório de Informática"
+      - title: "Premiações e Encerramento"
+        type: "general"
+        start_time: "17:00"
+        end_time: "18:00"
+        room: "Auditório da Química"
+      - title: "Confraternização de Despedida"
+        link: "https://web.inf.ufpr.br/erad2022/programacao-social/"
+        type: "general"
+        start_time: "19:00"
+        end_time: "20:30"
+        room: "Armazém Santana"
