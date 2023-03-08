@@ -11,12 +11,24 @@
 }
 
 .social-icons {
+    color: white;
     background-color: #212529;
+}
+
+.social-icons h1 {
+    font-size: x-large;
+}
+
+.social-icons p {
+    font-size: large;
+    color: #cfcfcf;
+}
+
+.btn-social {
+    font-size: 32px;
     color: white;
 }
 
-.social-icons svg {
-    padding: 4px 4px;
-    width: 25px;
-    color: white;
+.btn-social:hover {
+    color: #cfcfcf !important;
 }
