@@ -1,10 +1,16 @@
-.event-info {
-    padding-top: 12px;
-    padding-bottom: 12px;
+@media (max-width: 768px) {
+    .col-md-2.event-info {
+        margin-bottom: 8px;
+    }
+
+    .col-md-7.event-info {
+        margin-top: 8px;
+    }
 }
 
 .event-row {
     border-bottom: 1px solid #ddd;
+    padding: 12px 0;
 }
 
 .event-row:nth-of-type(even) {

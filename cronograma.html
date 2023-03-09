@@ -12,8 +12,7 @@ layout: default
         <div>
             <div class="row">
                 <ul class="nav nav-tabs justify-content-center" id="schedule-tab" role="tablist">
-                    <!-- TODO: add schedule for 2023 and replace file in the line below -->
-                    {% for day in site.data.cronograma2022.schedule %}
+                    {% for day in site.data.cronograma.schedule %}
                     <li class="nav-item" role="presentation">
                         {%- if forloop.index == 1 -%}
                         <button class="nav-link active" id="tab-{{ day.id }}" data-bs-toggle="tab" data-bs-target="#schedule-{{ day.id }}" type="button" role="tab" aria-controls="schedule-{{ day.id }}" aria-selected="true">
@@ -29,8 +28,7 @@ layout: default
                 </ul>
             </div>
             <div class="tab-content">
-                <!-- TODO: add schedule for 2023 and replace file in the line below -->
-                {% for day in site.data.cronograma2022.schedule %}
+                {% for day in site.data.cronograma.schedule %}
                 {%- if forloop.index == 1 -%}
                 <div id="schedule-{{day.id}}" class="tab-pane show active" role="tabpanel">
                 {%- else -%}
@@ -123,5 +121,7 @@ layout: default
                 {% endfor %}
             </div>
         </div>
+        <br>
+        <br>
     </div>
 </section>
