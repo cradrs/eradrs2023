@@ -1,0 +1,20 @@
+schedule:
+  - 
+    id: "day-one"
+    event-day: "1º dia"
+    calendar-day: "10 de maio de 2023"
+    events:
+
+      
+  - 
+    id: day-two
+    event-day: "2º dia"
+    calendar-day: "11 de maio de 2023"
+    events:
+
+
+  - 
+    id: day-three
+    event-day: "3º dia"
+    calendar-day: "12 de maio de 2023"
+    events:

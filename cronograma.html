@@ -5,5 +5,123 @@ layout: default
 <section id="light-card">
     <div class="p-2 container col-sm-12 col-lg-8 text-justify">
         <h2 class="p-4 text-center">Cronograma</h2>
+        <p class="lead text-center">
+            Em breve o cronograma completo do evento estará disponível.
+        </p>
+        <br>
+        <div>
+            <div class="row">
+                <ul class="nav nav-tabs justify-content-center" id="schedule-tab" role="tablist">
+                    {% for day in site.data.cronograma.schedule %}
+                    <li class="nav-item" role="presentation">
+                        {%- if forloop.index == 1 -%}
+                        <button class="nav-link active" id="tab-{{ day.id }}" data-bs-toggle="tab" data-bs-target="#schedule-{{ day.id }}" type="button" role="tab" aria-controls="schedule-{{ day.id }}" aria-selected="true">
+                        {%- else -%}
+                        <button class="nav-link" id="tab-{{ day.id }}" data-bs-toggle="tab" data-bs-target="#schedule-{{ day.id }}" type="button" role="tab" aria-controls="schedule-{{ day.id }}" aria-selected="true">
+                        {%- endif -%}
+                            {{ day.event-day }}
+                            <br>
+                            {{ day.calendar-day }}
+                        </button>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="tab-content">
+                {% for day in site.data.cronograma.schedule %}
+                {%- if forloop.index == 1 -%}
+                <div id="schedule-{{day.id}}" class="tab-pane show active" role="tabpanel">
+                {%- else -%}
+                <div id="schedule-{{day.id}}" class="tab-pane" role="tabpanel">
+                {%- endif -%}
+                    {% for event in day.events %}
+                    <div class="row event-row">
+                        <div class="col-md-2 event-info">
+                            <p class="event-time">
+                                {{ event.start_time }} - {{ event.end_time }}
+                            </p>
+                            <p class="event-room">
+                                {{ event.room }}
+                            </p>
+                        </div>
+                        {% if event.type == "general" %}
+                        <div class="col-md-10 event-info">
+                            <h5>
+                                {% if event.link %}
+                                <a class="event-title" href="{{ event.link }}" target="_blank">
+                                    {{ event.title }}
+                                </a>
+                                {% else %}
+                                    {{ event.title }}
+                                {% endif %}
+                            </h5>
+                            <p class="event-description">
+                                {{ event.description }}
+                            </p>
+                        </div>
+                        {% elsif event.type == "lecture" or event.type == "workshop" %}
+                        <div class="col-md-3 event-info">
+                            {% for speaker in event.speakers %}
+                            <p class="event-speaker">
+                                {{ speaker.name }}
+                            </p>
+                            <p class="event-speaker-institution">
+                                {{ speaker.institution }}
+                            </p>
+                            {% endfor %}
+                        </div>
+                        <div class="col-md-7 event-info">
+                            <h5>
+                                {% if event.link %}
+                                <a class="event-title" href="{{ event.link }}" target="_blank">
+                                    {{ event.title }}
+                                </a>
+                                {% else %}
+                                    {{ event.title }}
+                                {% endif %}
+                            </h5>
+                            <p class="event-description">
+                                {{ event.description }}
+                            </p>
+                        </div>
+                        {% elsif event.type == "ictrack" or event.type == "pgtrack" %}
+                        <div class="col-md-3 event-info">
+                            {% for chair in event.chairs %}
+                            <p class="event-chair">
+                                {{ chair.name }}
+                            </p>
+                            <p class="event-chair-institution">
+                                {{ chair.institution }}
+                            </p>
+                            {% endfor %}
+                        </div>
+                        <div class="col-md-7 event-info">
+                            <h5>
+                                {% if event.link %}
+                                <a class="event-title" href="{{ event.link }}" target="_blank">
+                                    {{ event.title }}
+                                </a>
+                                {% else %}
+                                    {{ event.title }}
+                                {% endif %}
+                            </h5>
+                            {% for paper in event.papers %}
+                            <p class="event-paper">
+                                {{ paper.title }}
+                            </p>
+                            <p class="event-paper-authors">
+                                {{ paper.authors }}
+                            </p>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <br>
+        <br>
     </div>
 </section>
