@@ -1,0 +1,9 @@
+.col-sm.gallery {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row.gallery {
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: calc(var(--bs-gutter-x) * .5);
+}
