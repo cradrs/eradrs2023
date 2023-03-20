@@ -16,3 +16,13 @@
 .bg-secondary {
     color: #f1f1f1;
 }
+
+img,
+.table-responsive {
+    margin-bottom: 1.5rem;
+}
+
+.registration-summary {
+    color: black;
+    text-decoration: none;
+}

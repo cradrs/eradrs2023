@@ -2,9 +2,12 @@
     li,
     td,
     th,
-    p.lead,
-    li.lead {
+    p.lead {
         font-size: 0.8rem;
+    }
+
+    li.lead {
+        font-size: 0.72rem;
     }
 
     h6 {
@@ -24,6 +27,10 @@
     h6 {
         font-weight: 300;
         line-height: 1.2;
+    }
+
+    li.lead {
+        font-size: 1.125rem;
     }
 
     /*p, p.lead, li, td, th {
@@ -55,4 +62,9 @@ h4 {
 
 li {
     margin-bottom: 0.5rem;
+}
+
+li.lead + a {
+    text-decoration: none;
+    background-color: blue;
 }
