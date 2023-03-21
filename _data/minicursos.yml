@@ -1,0 +1,63 @@
+layout: "horizontal"
+
+tutorials:
+  - id: MC1
+    date: "Horário: TBD"
+    title: "DevOps para HPC: Como configurar um cluster para uso compartilhado"
+    abstract: "O compartilhamento de recursos para a execução de aplicações de alto desempenho é uma tarefa considerável. Requisitos como controle de usuários, compartilhamento de dados, assim como a reserva e isolamento de recursos são cruciais no sistema. Neste minicurso, apresentaremos um conjunto de softwares que pode ser utilizado para resolver tais desafios, sempre demonstrado as configurações possíveis para adequar o sistema a ser compartilhado para os requisitos dos usuários. A pilha de software é inspirada na utilizada no PCAD (Parque Computacional de Alto Desempenho) do Grupo de Processamento Paralelo e Distribuído da Universidade Federal do Rio Grande do Sul."
+    authors:
+      - name: "Lucas Leandro Nesi"
+        bio: "Possui graduação em Ciência da Computação pela Universidade do Estado de Santa Catarina (2017) e mestrado pela Universidade Federal do Rio Grande do Sul (2019) e atualmente persegue um doutorado em Computação pela Universidade Federal do Rio Grande do Sul com bolsa do Conselho Nacional de Pesquisa (CNPq). Realiza pesquisas na área de processamento de alto desempenho, especialmente em problemas que envolvem sistemas com múltiplos nós computacionais equipados com múltiplas GPUs e CPUs."
+        photo: "user.png"
+      - name: "Lucas Mello Schnorr"
+        bio: "Possui graduação em Ciência da Computação pela Universidade Federal de Santa Maria (2003), mestrado em Computação pela Universidade Federal do Rio Grande do Sul (2005), doutorado em Computação pela Universidade Federal do Rio Grande do Sul (2009), pós-doutorado pela Centre National de la Recherche Scientifique (2011) e pós-doutorado pela Institut National de Recherche en Informatique et en Automatique(2017). Atualmente é Professor Adjunto da Universidade Federal do Rio Grande do Sul e orientador do Programa de Pós-Graduação em Computação (nível máximo na avaliação da CAPES). Conduz pesquisas em ambiente internacional. Tem experiência na área de Ciência da Computação, com ênfase em Sistemas de Computação e Processamento de Alto Desempenho."
+        photo: "user.png"
+  - id: MC2
+    date: "Horário: TBD"
+    title: "Explorando Técnicas de Compressão para Melhorar a Eficiência de Tratamento de Dados IoT"
+    abstract: "A área de Internet das Coisas, ou IoT, vem crescendo continuamente e oferecendo inúmeras oportunidades em diversas áreas. Esses dispositivos interconectados detectam, monitoram e coletam diversos tipos de dados do ambiente físicos, de modo que aplicações de IoT vem sendo amplamente utilizadas em sistemas de transporte, indústria, educação, casas inteligentes, agricultura e saúde, por exemplo. Nesse contexto, aplicações de monitoramento remoto normalmente requerem a gravação, processamento e transmissão de grandes volumes de dados. Essa necessidade, contudo, se depara com as limitações intrínsecas destes dispositivos, os quais se caracterizam por restrição de consumo de bateria, capacidades limitadas de processamento e largura de banda. Para lidar com esses desafios, as técnicas de compactação podem ser usadas para diminuir o volume de dados antes de transmiti-los para outras camadas da infraestrutura, de modo que essa redução também resulta em menor consumo de energia que seria demandada na transmissão dos dados. O objetivo desse curso é explorar as possibilidades de compactação de dados entre variados tipos de algoritmos e suas características, bem como quais devem ser os critérios para escolha do mais adequado considerando os tipos de dados que se deseja processar, conforme sua finalidade e grau de criticidade."
+    authors:
+      - name: "Rodrigo da Rosa Righi"
+        bio: "Professor com Pós-doutorado, Korea Advanced Institute of Science and Technology (KAIST), Coreia do Sul, 2013. Doutorado em Computação, 2009, UFRGS e TU Berlin; Mestrado em Computação, 2005, UFRGS e Graduação em Computação pela UFSM, 2003. Atua na coordenação de projeto com a DELL desde 2017. A DELL vê a Unisinos como referência e qualidade na entrega técnica dos projetos, bem como na qualidade de gerência financeira do Escritório de Projetos. Ainda, gerencia projeto com a HT Micron na área de Indústria 4.0, instrumentando as salas limpas da empresa com sensores e analisando os dados com Inteligência Artificial."
+        photo: "user.png"
+      - name: "Alexandre Andrade"
+        bio: "Graduado em Engenharia de Elétrica pela Universidade Federal do Rio Grande do Sul -UFRGS (1998). Mestrado em Computação em Computação Aplicada na Universidade do Vale dos Sinos - UNISINOS (2013), com trabalho desenvolvido em balanceamento de carga nos sistemas de processamento de transações financeiras eletrônicas. Atualmente cursa Doutorado na área de Internet das Coisas - IoT na UNISINOS.  Experiência profissional no ramo de transações financeiras eletrônicas, captura e processamento de cartões de crédito e débito. Atua em projetos para automação comercial, instrumentação e programação de microprocessadores. Como superintendente de sistemas de processamento e canais digitais, lidera projetos voltados para alta disponibilidade e alto desempenho, com soluções de Front-end e Back-end."
+        photo: "user.png"
+  - id: MC3
+    date: "Horário: TBD"
+    title: "Uso de diretivas de OpenMP (básico)"
+    abstract: "OpenMP tem sido o padrão de fato para a programação em memória compartilhada. No entanto, a maioria dos programadores explora apenas o paralelismo de laço, deixando de usar novos recursos disponíveis no padrão 4 e 5. Com isso, outras abordagens de exploração do paralelismo não tem sido difundidas. Neste contexto, este minicurso tem como objetivo aprofundar a programação paralela em aplicações, com recursos considerados avançados de OpenMP, geralmente não adotados ou vistos nas disciplinas introdutórias de programação paralela. Com isso, o foco do minicurso está voltado para um nível intermediário, fugindo de simples exemplos introdutórios às interfaces de programação, mas atuando em códigos com um número expressivo de linhas de código. Desta forma, o participante perceberá as reais dificuldades que existem ao se deparar com a necessidade de paralelização de um código-fonte."
+    authors:
+      - name: "Claudio Schepke"
+        bio: "Professor associado da Universidade Federal do Pampa (UNIPAMPA), campus Alegrete/RS desde 2012. Possui graduação em Ciência da Computação pela Universidade Federal de Santa Maria (2005) e mestrado (2007) e doutorado (2012) em Computação pela Universidade Federal do Rio Grande do Sul, sendo este feito na modalidade sanduíche na Technische Universität Berlin, Alemanha (2010-2011). Tem experiência na área de Ciência da Computação, com ênfase em Processamento Paralelo e Distribuído, atuando principalmente nos seguintes temas: Processamento de Alto Desempenho, Interfaces de Programação Paralela, Aplicações Científicas e Computação em Nuvem. Claudio atuou na organização e na apresentação de minicursos em diversas edições da ERAD/RS."
+        photo: "user.png"
+      - name: "Natiele Lucca"
+        bio: "Graduada em Ciência da Computação e mestranda do Programa de Pós-Graduação em Engenharia de Software (PPGES) da Unipampa, Campus Alegrete. Tem experiência com Programação Paralela e Aplicações Científicas."
+        photo: "user.png"
+  - id: MC4
+    date: "Horário: TBD"
+    title: "Aprendizado de máquina e computação de alto desempenho"
+    abstract: "A Inteligência Artificial é um campo que vem evoluindo radicalmente nos últimos anos. Ela tem se mostrado uma ferramenta com alto poder de capilaridade, sendo incorporada nas mais diversas áreas econômicas e sociais. Sua aplicação em áreas como automação, robótica, classificação de dados, reconhecimento de imagens e em sistemas especialistas já é bastante sólida, mas tem chamado a atenção sua aplicação em áreas relacionadas à subjetividade humana, como a criação de ilustrações, de textos e música. A principal metodologia para a criação de agentes inteligentes é baseada no aprendizado máquina, que consiste em apresentar uma série de exemplos a um sistema computacional. Esses exemplos frequentemente compreendem grandes volumes de dados, e o processo de aprendizagem é um método iterativo de otimização que precisa ser repetido muitas vezes sobre esse conjunto de dados. Essas características fazem com que o desenvolvimento de modelos de inteligência artificial dependam de computação de alto desempenho. Modelos de inteligência artificial mais complexos, baseados em redes neurais artificiais com muitas camadas ocultas, empregam modelos de aprendizagem profunda (deep learning). A aprendizagem profunda é um problema de otimização de alta ordem, que exige uma capacidade de processamento ainda maior. Muitos modelos de inteligência artificial são baseados em redes neurais artificiais, que são modelos matemáticos/computacionais inspirados em neurônios biológicos. Assim como sua fonte de inspiração, sua arquitetura é massivamente paralela, o que torna possível a aplicação de diversas técnicas de computação paralela para acelerar o processo de aprendizagem. Neste minicurso serão abordados os fundamentos do aprendizado de máquina, suas implicações quanto à computação de alto desempenho, e as principais técnicas empregadas nesse contexto. Serão explorados modelos computacionais, frameworks mais utilizados, e diversos trabalhos científicos do estado da arte."
+    authors:
+      - name: "Manuel Osório Binelo"
+        bio: "Formado em Ciência da Computação pela Universidade de Cruz Alta, Mestre em Modelagem Matemática pela Unijuí e Doutor em Engenharia de Teleinformática pela Universidade Federal do Ceará. Atualmente é professor da Unijuí nos cursos de graduação em computação e engenharias, e no Programa de Pós-Graduação em Modelagem Matemática e Computacional."
+        photo: "user.png"
+      - name: "Edson Luiz Padoin"
+        bio: "Professor da Universidade Regional do Noroeste do Estado do Rio Grande do Sul (UNIJUI). Possui doutorado em Computação pela Universidade Federal do Rio Grande do Sul com período sanduíche em Université de Grenoble Alpes na França e mestrado em Engenharia da Produção com ênfase em Tecnologia da Informação pela Universidade Federal de Santa Maria. Tem interesse nos seguintes temas: Eficiência Energética, Balanceamento de Cargas, Computação de Alto Desempenho em Arquiteturas Heterogêneas de Baixo Consumo, Sistemas operacionais e Distribuídos. "
+        photo: "user.png"
+  - id: MC5
+    date: "Horário: TBD"
+    title: "Tecnologias de Storage"
+    abstract: "TBD"
+    authors:
+      - name: "Guilherme Friol (SDC)"
+        bio: "Especialista em computação com anos de experiência em ambientes computacionais de alta demanda, virtualização e HPC. Atua como consultor em arquitetura e otimização de sistemas de alto desempenho. Desenvolveu projetos relevantes junto a grandes instituições de pesquisa e notórios nomes da computação nacional em machine learning e redes neurais."
+        photo: "user.png"
+  - id: MC6
+    date: "Horário: TBD"
+    title: "Projeto de Aplicações Paralelas (básico)"
+    abstract: "Apresenta-se neste minicurso os conceitos de projeto e desenvolvimento de programas paralelos. O enfoque principal será dado para o projeto metodológico chamado PCAM, proposto por Foster, e definido por quatro fases de criação de um programa paralelo: Particionamento, Comunicação, Aglomeração e Mapeamento. Também serão abordados padrões de projeto que podem ser aliados à metodologia PCAM e uma visão geral dos principais modelos de programas paralelos."
+    authors:
+      - name: "Guilherme Galante"
+        bio: "Bacharel em Informática pela Universidade Estadual do Oeste do Paraná (2003), Mestre pela Universidade Federal do Rio Grande do Sul (2006) e Doutor pela Universidade Federal do Paraná (2014). É Professor do curso de Ciência da Computação da Universidade Estadual do Oeste do Paraná desde 2006 e do Programa de Pós-Graduação em Computação (PPGComp) desde 2019. As áreas de atuação são: Sistemas Computacionais e Computação Aplicada."
+        photo: "user.png"

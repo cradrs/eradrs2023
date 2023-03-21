@@ -6,6 +6,7 @@
         font-size: 0.8rem;
     }
 
+    p.lead.author-bio,
     li.lead {
         font-size: 0.72rem;
     }
@@ -29,6 +30,7 @@
         line-height: 1.2;
     }
 
+    p.lead.author-bio,
     li.lead {
         font-size: 1.125rem;
     }

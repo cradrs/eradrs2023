@@ -1,0 +1,9 @@
+.tutorial {
+    padding: 12px 0;
+}
+
+@media (max-width: 768px) {
+    .author-photo {
+        width: 30%;
+    }
+}
