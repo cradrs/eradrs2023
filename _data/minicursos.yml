@@ -1,4 +1,5 @@
-layout: "horizontal"
+general-layout: "tabs" # "tabs" or "list"
+authors-layout: "horizontal" # "horizontal" or "vertical"
 
 tutorials:
   - id: MC1
