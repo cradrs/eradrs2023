@@ -1,4 +1,4 @@
-general-layout: "tabs" # "tabs" or "list"
+general-layout: "list" # "tabs" or "list"
 authors-layout: "horizontal" # "horizontal" or "vertical"
 
 tutorials:
