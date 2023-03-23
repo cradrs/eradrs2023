@@ -5,5 +5,28 @@ layout: default
 <section id="light-card">
     <div class="p-2 container col-sm-12 col-lg-8 text-justify">
         <h2 class="p-4 text-center">Palestras</h2>
+        <p class="lead">
+            Abaixo, encontram-se detalhes sobre as palestras da ERAD/RS 2023.
+        </p>
+        <div class="tab-content">
+            {% for keynote in site.data.palestras.keynotes %}
+                <div class="keynote">
+                    <h3>{{ keynote.id }}: {{ keynote.title }}</h3>
+                    <p class="lead">
+                        <b>Resumo</b>: {{ keynote.abstract }}
+                    </p>
+                    <h4>Palestrante</h4>
+                    <div class="row">
+                        <div class col-md-12>
+                            <img class="speaker-photo float-start" src="img/{{ keynote.speaker.photo }}" alt="{{ keynote.speaker.name }}">
+                            <p class="lead speaker-bio">
+                                <b>{{ keynote.speaker.name }}</b> {{ keynote.speaker.bio }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
+    <br><br>
 </section>
