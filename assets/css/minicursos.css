@@ -1,0 +1,9 @@
+.tutorial {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.author-photo {
+    max-width: 128px;
+    height: auto;
+}

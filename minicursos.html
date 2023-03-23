@@ -5,5 +5,79 @@ layout: default
 <section id="light-card">
     <div class="p-2 container col-sm-12 col-lg-8 text-justify">
         <h2 class="p-4 text-center">Minicursos</h2>
+        <p class="lead">
+            Abaixo, encontram-se detalhes sobre os seis minicursos aceitos para apresentação na ERAD/RS 2023.
+        </p>
+        {%- if site.data.minicursos.general-layout == "tabs" -%}
+        <div class="row">
+            <ul class="nav nav-tabs justify-content-center" id="tutorial-tab" role="tablist">
+                {% for tutorial in site.data.minicursos.tutorials %}
+                <li class="nav-item" role="presentation">
+                    {%- if forloop.index == 1 -%}
+                    <button class="nav-link active" id="tab-{{ tutorial.id }}" data-bs-toggle="tab" data-bs-target="#tutorial-{{ tutorial.id }}" type="button" role="tab" aria-controls="tutorial-{{ tutorial.id }}" aria-selected="true">
+                    {%- else -%}
+                    <button class="nav-link" id="tab-{{ tutorial.id }}" data-bs-toggle="tab" data-bs-target="#tutorial-{{ tutorial.id }}" type="button" role="tab" aria-controls="tutorial-{{ tutorial.id }}" aria-selected="true">
+                    {%- endif -%}
+                        {{ tutorial.id }}
+                        <br>
+                        {{ tutorial.date }}
+                    </button>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {%- endif -%}
+        <div class="tab-content">
+            {% for tutorial in site.data.minicursos.tutorials %}
+            {%- if site.data.minicursos.general-layout == "tabs" -%}
+            {%- if forloop.index == 1 -%}
+            <div id="tutorial-{{tutorial.id}}" class="tab-pane tutorial show active" role="tabpanel">
+            {%- else -%}
+            <div id="tutorial-{{tutorial.id}}" class="tab-pane tutorial" role="tabpanel">
+            {%- endif -%}
+            {%- else -%}
+            <div class="tutorial">
+            {%- endif -%}
+                {%- if site.data.minicursos.general-layout == "tabs" -%}
+                <h3>{{ tutorial.title }}</h3>
+                {%- else -%}
+                <h3>{{ tutorial.id }}: {{ tutorial.title }}</h3>
+                {%- endif -%}
+                <p class="lead">
+                    <b>Resumo</b>: {{ tutorial.abstract }}
+                </p>
+                {%- if site.data.minicursos.authors-layout == "horizontal" -%}
+                <div class="row">
+                    <h4>Autores</h4>
+                    {% for author in tutorial.authors %}
+                    <div class="col-md tutorial-author">
+                        <img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}">
+                        <h5>{{ author.name }}</h5>
+                        <p class="lead author-bio">
+                            {{ author.bio }}
+                        </p>
+                    </div>
+                    {% endfor %}
+                </div>
+                {%- else -%}
+                <h4>Autores</h4>
+                {% for author in tutorial.authors %}
+                    <div class="row">
+                        <div class="col-md tutorial-author">
+                            <img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}">
+                        </div>
+                        <div class="col-md-10">
+                            <h5>{{ author.name }}</h5>
+                            <p class="lead author-bio">
+                                {{ author.bio }}
+                            </p>
+                        </div> 
+                    </div>
+                {% endfor %}
+                {%- endif -%}
+            </div>
+            {% endfor %}
+        </div>
     </div>
+    <br><br>
 </section>
