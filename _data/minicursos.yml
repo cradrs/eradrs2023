@@ -1,6 +1,3 @@
-general-layout: "list" # "tabs" or "list"
-authors-layout: "horizontal" # "horizontal" or "vertical"
-
 tutorials:
   - id: MC1
     date: "Horário: TBD"
