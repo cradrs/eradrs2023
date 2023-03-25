@@ -6,10 +6,10 @@ tutorials:
     authors:
       - name: "Lucas Leandro Nesi"
         bio: "Possui graduação em Ciência da Computação pela Universidade do Estado de Santa Catarina (2017) e mestrado pela Universidade Federal do Rio Grande do Sul (2019) e atualmente persegue um doutorado em Computação pela Universidade Federal do Rio Grande do Sul com bolsa do Conselho Nacional de Pesquisa (CNPq). Realiza pesquisas na área de processamento de alto desempenho, especialmente em problemas que envolvem sistemas com múltiplos nós computacionais equipados com múltiplas GPUs e CPUs."
-        photo: "user.png"
+        photo: "nesi.JPG"
       - name: "Lucas Mello Schnorr"
         bio: "Possui graduação em Ciência da Computação pela Universidade Federal de Santa Maria (2003), mestrado em Computação pela Universidade Federal do Rio Grande do Sul (2005), doutorado em Computação pela Universidade Federal do Rio Grande do Sul (2009), pós-doutorado pela Centre National de la Recherche Scientifique (2011) e pós-doutorado pela Institut National de Recherche en Informatique et en Automatique(2017). Atualmente é Professor Adjunto da Universidade Federal do Rio Grande do Sul e orientador do Programa de Pós-Graduação em Computação (nível máximo na avaliação da CAPES). Conduz pesquisas em ambiente internacional. Tem experiência na área de Ciência da Computação, com ênfase em Sistemas de Computação e Processamento de Alto Desempenho."
-        photo: "user.png"
+        photo: "lucas-schnorr.png"
   - id: MC2
     date: "Horário: TBD"
     title: "Explorando Técnicas de Compressão para Melhorar a Eficiência de Tratamento de Dados IoT"
@@ -17,10 +17,10 @@ tutorials:
     authors:
       - name: "Rodrigo da Rosa Righi"
         bio: "Professor com Pós-doutorado, Korea Advanced Institute of Science and Technology (KAIST), Coreia do Sul, 2013. Doutorado em Computação, 2009, UFRGS e TU Berlin; Mestrado em Computação, 2005, UFRGS e Graduação em Computação pela UFSM, 2003. Atua na coordenação de projeto com a DELL desde 2017. A DELL vê a Unisinos como referência e qualidade na entrega técnica dos projetos, bem como na qualidade de gerência financeira do Escritório de Projetos. Ainda, gerencia projeto com a HT Micron na área de Indústria 4.0, instrumentando as salas limpas da empresa com sensores e analisando os dados com Inteligência Artificial."
-        photo: "user.png"
+        photo: "Rodrigo_Righi.jpg"
       - name: "Alexandre Andrade"
         bio: "Graduado em Engenharia de Elétrica pela Universidade Federal do Rio Grande do Sul -UFRGS (1998). Mestrado em Computação em Computação Aplicada na Universidade do Vale dos Sinos - UNISINOS (2013), com trabalho desenvolvido em balanceamento de carga nos sistemas de processamento de transações financeiras eletrônicas. Atualmente cursa Doutorado na área de Internet das Coisas - IoT na UNISINOS.  Experiência profissional no ramo de transações financeiras eletrônicas, captura e processamento de cartões de crédito e débito. Atua em projetos para automação comercial, instrumentação e programação de microprocessadores. Como superintendente de sistemas de processamento e canais digitais, lidera projetos voltados para alta disponibilidade e alto desempenho, com soluções de Front-end e Back-end."
-        photo: "user.png"
+        photo: "alexandre-andrade.jpg"
   - id: MC3
     date: "Horário: TBD"
     title: "Uso de diretivas de OpenMP (básico)"
@@ -28,10 +28,9 @@ tutorials:
     authors:
       - name: "Claudio Schepke"
         bio: "Professor associado da Universidade Federal do Pampa (UNIPAMPA), campus Alegrete/RS desde 2012. Possui graduação em Ciência da Computação pela Universidade Federal de Santa Maria (2005) e mestrado (2007) e doutorado (2012) em Computação pela Universidade Federal do Rio Grande do Sul, sendo este feito na modalidade sanduíche na Technische Universität Berlin, Alemanha (2010-2011). Tem experiência na área de Ciência da Computação, com ênfase em Processamento Paralelo e Distribuído, atuando principalmente nos seguintes temas: Processamento de Alto Desempenho, Interfaces de Programação Paralela, Aplicações Científicas e Computação em Nuvem. Claudio atuou na organização e na apresentação de minicursos em diversas edições da ERAD/RS."
-        photo: "user.png"
+        photo: "Schepke.jpg"
       - name: "Natiele Lucca"
         bio: "Graduada em Ciência da Computação e mestranda do Programa de Pós-Graduação em Engenharia de Software (PPGES) da Unipampa, Campus Alegrete. Tem experiência com Programação Paralela e Aplicações Científicas."
-        photo: "user.png"
   - id: MC4
     date: "Horário: TBD"
     title: "Aprendizado de máquina e computação de alto desempenho"
@@ -39,10 +38,9 @@ tutorials:
     authors:
       - name: "Manuel Osório Binelo"
         bio: "Formado em Ciência da Computação pela Universidade de Cruz Alta, Mestre em Modelagem Matemática pela Unijuí e Doutor em Engenharia de Teleinformática pela Universidade Federal do Ceará. Atualmente é professor da Unijuí nos cursos de graduação em computação e engenharias, e no Programa de Pós-Graduação em Modelagem Matemática e Computacional."
-        photo: "user.png"
       - name: "Edson Luiz Padoin"
         bio: "Professor da Universidade Regional do Noroeste do Estado do Rio Grande do Sul (UNIJUI). Possui doutorado em Computação pela Universidade Federal do Rio Grande do Sul com período sanduíche em Université de Grenoble Alpes na França e mestrado em Engenharia da Produção com ênfase em Tecnologia da Informação pela Universidade Federal de Santa Maria. Tem interesse nos seguintes temas: Eficiência Energética, Balanceamento de Cargas, Computação de Alto Desempenho em Arquiteturas Heterogêneas de Baixo Consumo, Sistemas operacionais e Distribuídos. "
-        photo: "user.png"
+        photo: "Edson_Padoin.png"
   - id: MC5
     date: "Horário: TBD"
     title: "Tecnologias de Storage"
@@ -50,7 +48,7 @@ tutorials:
     authors:
       - name: "Guilherme Friol (SDC)"
         bio: "Especialista em computação com anos de experiência em ambientes computacionais de alta demanda, virtualização e HPC. Atua como consultor em arquitetura e otimização de sistemas de alto desempenho. Desenvolveu projetos relevantes junto a grandes instituições de pesquisa e notórios nomes da computação nacional em machine learning e redes neurais."
-        photo: "user.png"
+        photo: "Guilherme_Friol.png"
   - id: MC6
     date: "Horário: TBD"
     title: "Projeto de Aplicações Paralelas (básico)"
@@ -58,4 +56,4 @@ tutorials:
     authors:
       - name: "Guilherme Galante"
         bio: "Bacharel em Informática pela Universidade Estadual do Oeste do Paraná (2003), Mestre pela Universidade Federal do Rio Grande do Sul (2006) e Doutor pela Universidade Federal do Paraná (2014). É Professor do curso de Ciência da Computação da Universidade Estadual do Oeste do Paraná desde 2006 e do Programa de Pós-Graduação em Computação (PPGComp) desde 2019. As áreas de atuação são: Sistemas Computacionais e Computação Aplicada."
-        photo: "user.png"
+        photo: "Guilherme_Galante.jpeg"
