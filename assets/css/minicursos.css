@@ -6,4 +6,5 @@
 .author-photo {
     max-width: 128px;
     height: auto;
+    margin: 0 0 0.5rem 0;
 }

@@ -19,7 +19,9 @@ layout: default
                     <h4>Autores</h4>
                     {% for author in tutorial.authors %}
                     <div class="col-md tutorial-author">
-                        <!--img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}"-->
+                        {% if author.photo %}
+                        <img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}">
+                        {% endif %}
                         <h5>{{ author.name }}</h5>
                         <p class="lead author-bio">
                             {{ author.bio }}
