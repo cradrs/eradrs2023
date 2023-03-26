@@ -1,0 +1,10 @@
+.keynote {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.speaker-photo {
+    max-width: 128px;
+    height: auto;
+    margin: 0 1rem 0 0;
+}
