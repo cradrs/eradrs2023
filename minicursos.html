@@ -10,7 +10,7 @@ layout: default
         </p>
         <div class="tab-content">
             {% for tutorial in site.data.minicursos.tutorials %}
-            <div class="tutorial">
+            <div id="{{ tutorial.id }}" class="tutorial">
                 <h3>{{ tutorial.id }}: {{ tutorial.title }}</h3>
                 <p class="lead">
                     <b>Resumo</b>: {{ tutorial.abstract }}

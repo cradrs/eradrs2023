@@ -46,73 +46,91 @@ layout: default
                         </div>
                         {% if event.type == "general" %}
                         <div class="col-md-10 event-info">
-                            <h5>
-                                {% if event.link %}
-                                <a class="event-title" href="{{ event.link }}" target="_blank">
-                                    {{ event.title }}
-                                </a>
-                                {% else %}
-                                    {{ event.title }}
-                                {% endif %}
-                            </h5>
-                            <p class="event-description">
-                                {{ event.description }}
-                            </p>
+                            <div class="event-section">
+                                <h5>
+                                    {% if event.link %}
+                                    <a class="event-title" href="{{ event.link }}" target="_blank">
+                                        {{ event.title }}
+                                    </a>
+                                    {% else %}
+                                        {{ event.title }}
+                                    {% endif %}
+                                </h5>
+                            </div>
+                            <div class="event-section">
+                                <p class="event-description">
+                                    {{ event.description }}
+                                </p>
+                            </div>
                         </div>
                         {% elsif event.type == "lecture" or event.type == "workshop" %}
-                        <div class="col-md-3 event-info">
-                            {% for speaker in event.speakers %}
-                            <p class="event-speaker">
-                                {{ speaker.name }}
-                            </p>
-                            <p class="event-speaker-institution">
-                                {{ speaker.institution }}
-                            </p>
-                            {% endfor %}
-                        </div>
-                        <div class="col-md-7 event-info">
-                            <h5>
-                                {% if event.link %}
-                                <a class="event-title" href="{{ event.link }}" target="_blank">
-                                    {{ event.title }}
-                                </a>
-                                {% else %}
-                                    {{ event.title }}
+                        <div class="col-md-10 event-info">
+                            <div class="event-section">
+                                <h5>
+                                    {% if event.link %}
+                                    <a class="event-title" href="{{ event.link }}" target="_blank">
+                                        {{ event.title }}
+                                    </a>
+                                    {% else %}
+                                        {{ event.title }}
+                                    {% endif %}
+                                </h5>
+                            </div>
+                            <div class="event-section">
+                                <span class="event-speakers-intro">Apresentação:</span>
+                                {% for speaker in event.speakers %}
+                                <span class="event-speaker">
+                                    {{ speaker.name }}
+                                </span>
+                                {% if speaker.institution %}
+                                <span class="event-speaker-institution">
+                                    ({{ speaker.institution }}){% if forloop.last %}{% else %};{% endif %}
+                                </span>
                                 {% endif %}
-                            </h5>
-                            <p class="event-description">
-                                {{ event.description }}
-                            </p>
+                                {% endfor %}
+                            </div>
+                            <div class="event-section">
+                                <p class="event-description">
+                                    {{ event.description }}
+                                </p>
+                            </div>
                         </div>
                         {% elsif event.type == "ictrack" or event.type == "pgtrack" %}
-                        <div class="col-md-3 event-info">
-                            {% for chair in event.chairs %}
-                            <p class="event-chair">
-                                {{ chair.name }}
-                            </p>
-                            <p class="event-chair-institution">
-                                {{ chair.institution }}
-                            </p>
-                            {% endfor %}
-                        </div>
-                        <div class="col-md-7 event-info">
-                            <h5>
-                                {% if event.link %}
-                                <a class="event-title" href="{{ event.link }}" target="_blank">
-                                    {{ event.title }}
-                                </a>
-                                {% else %}
-                                    {{ event.title }}
+                        <div class="col-md-10 event-info">
+                            <div class="event-section">
+                                <h5>
+                                    {% if event.link %}
+                                    <a class="event-title" href="{{ event.link }}" target="_blank">
+                                        {{ event.title }}
+                                    </a>
+                                    {% else %}
+                                        {{ event.title }}
+                                    {% endif %}
+                                </h5>
+                            </div>
+                            <div class="event-section">
+                                <span class="event-chairs-intro">Chair:</span>
+                                {% for chair in event.chairs %}
+                                <span class="event-chair">
+                                    {{ chair.name }}
+                                </span>
+                                {% if chair.institution %}
+                                <span class="event-chair-institution">
+                                    ({{ chair.institution }}){% if forloop.last %}{% else %};{% endif %}
+                                </span>
                                 {% endif %}
-                            </h5>
-                            {% for paper in event.papers %}
-                            <p class="event-paper">
-                                {{ paper.title }}
-                            </p>
-                            <p class="event-paper-authors">
-                                {{ paper.authors }}
-                            </p>
-                            {% endfor %}
+                                {% endfor %}
+                            </div>
+                            <div class="event-section">
+                                {% for paper in event.papers %}
+                                <p class="event-paper">
+                                    {{ paper.title }}
+                                </p>
+                                <p class="event-paper-authors">
+                                    {{ paper.authors }}
+                                </p>
+                                {% endfor %}
+                            </div>
                         </div>
                         {% endif %}
                     </div>
