@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<section id="light-card">
+    <div class="p-2 container col-sm-12 col-lg-8 text-justify">
+        <h2 class="p-4 text-center">WIA - Workshop de Inteligência Artificial</h2>
+        <!-- <p class="lead">
+            Abaixo, encontram-se detalhes sobre os seis minicursos aceitos para apresentação na ERAD/RS 2023.
+        </p> -->
+        <div class="tab-content">
+            {% for tutorial in site.data.wia.tutorials %}
+            <div id="{{ tutorial.id }}" class="tutorial">
+                <h3>{{ tutorial.title }}</h3>
+                <p class="lead">
+                    <b>Resumo</b>: {{ tutorial.abstract }}
+                </p>
+                <div class="row">
+                    <h4>Autores</h4>
+                    {% for author in tutorial.authors %}
+                    <div class="col-md tutorial-author">
+                        {% if author.photo %}
+                        <img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}">
+                        {% endif %}
+                        <h5>{{ author.name }}</h5>
+                        <p class="lead author-bio">
+                            {{ author.bio }}
+                        </p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <br><br>
+</section>
