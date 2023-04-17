@@ -20,10 +20,12 @@
 p.event-time,
 p.event-room,
 p.event-description,
-p.event-speaker,
-p.event-speaker-institution,
-p.event-chair,
-p.event-chair-institution,
+span.event-speakers-intro,
+span.event-speaker,
+span.event-speaker-institution,
+span.event-chairs-intro,
+span.event-chair,
+span.event-chair-institution,
 p.event-paper,
 p.event-paper-authors {
     font-size: 0.8rem;
@@ -31,8 +33,8 @@ p.event-paper-authors {
 }
 
 p.event-time,
-p.event-speaker,
-p.event-chair,
+span.event-speaker,
+span.event-chair,
 p.event-paper {
     font-weight: bold;
 }
@@ -42,4 +44,6 @@ a.event-title {
     text-decoration: none;
 }
 
-
+.event-section {
+    margin-bottom: 0.5rem;
+}
