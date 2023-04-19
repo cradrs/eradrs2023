@@ -15,7 +15,7 @@ layout: default
                 <h4 class="session-info">Sessão {{ forloop.index }}: {{ session.title }}</h4>
                 <div class="session-info">
                     <h6 class="session-info">
-                        <span class="session-info">Horário e local</span>: {{ session.date }} ({{ session.start_time }} - {{ session.end_time }}) - {{ session.room }}
+                      <span class="session-info">Horário e local</span>: {{ session.date }} ({{ session.start_time }} - {{ session.end_time }}) — {{ session.room }}
                     </h6>
                     <h6 class="session-info">
                       <span class="session-info">Chair</span>: {{ session.chair.name }} {%- if session.chair.institution -%}({{ session.chair.institution }}) {%- endif -%}
@@ -48,7 +48,7 @@ layout: default
                 <h4 class="session-info">Sessão {{ forloop.index }}: {{ session.title }}</h4>
                 <div class="session-info">
                     <h6 class="session-info">
-                        <span class="session-info">Horário e local</span>: {{ session.date }} ({{ session.start_time }} - {{ session.end_time }}) - {{ session.room }}
+                      <span class="session-info">Horário e local</span>: {{ session.date }} ({{ session.start_time }} - {{ session.end_time }}) — {{ session.room }}
                     </h6>
                     <h6 class="session-info">
                       <span class="session-info">Chair</span>: {{ session.chair.name }} {%- if session.chair.institution -%}({{ session.chair.institution }}) {%- endif -%}

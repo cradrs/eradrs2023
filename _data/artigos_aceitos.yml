@@ -9,7 +9,7 @@ pg-track:
     end_time: "16:00"
     chair:
       name: "TBD"
-    room: "TBD"
+    room: "Sala: TBD"
     papers:
       - title: "Desafios da modelagem do refinamento adaptativo das malhas: um estudo sobre o MARE2DEM"
         authors:
@@ -56,12 +56,12 @@ pg-track:
   -
     id: "PG2"
     title: "Aprendizado de Máquina e Computação de Alto Desempenho, Aplicações de Computação de Alto Desempenho em Ciências e Engenharias"
-    date: "11/05 (Quinta-feira)"
+    date: "11/05"
     start_time: "14:30"
     end_time: "16:00"
     chair:
       name: "TBD"
-    room: "TBD"
+    room: "Sala: TBD"
     papers:
       - title: "Utilização de aprendizado por reforço para adaptar a quantidade de recursos e acelerar aplicações"
         authors:
@@ -120,12 +120,12 @@ pg-track:
   -
     id: "PG3"
     title: "Algoritmos Paralelos e Distribuídos"
-    date: "12/05 (Sexta-feira)"
+    date: "12/05"
     start_time: "17:30"
     end_time: "18:30"
     chair:
       name: "TBD"
-    room: "TBD"
+    room: "Sala: TBD"
     papers:
       - title: "Uma proposta de análise comparativa de desempenho de implementações Barnes-Hut em clusters de computadores"
         authors:

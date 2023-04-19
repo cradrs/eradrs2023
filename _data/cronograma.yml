@@ -90,7 +90,7 @@ schedule:
         papers:
           - title: ""
             authors: ""
-      - title: "Fórum PG"
+      - title: "Fórum PG: Escalonamento e Balanceamento de Carga, Avaliação, Medição e Predição de Desempenho"
         type: "pgtrack"
         start_time: "14:30"
         end_time: "16:00"
@@ -214,7 +214,7 @@ schedule:
         papers:
           - title: ""
             authors: ""
-      - title: "Fórum PG"
+      - title: "Fórum PG: Aprendizado de Máquina e Computação de Alto Desempenho, Aplicações de Computação de Alto Desempenho em Ciências e Engenharias"
         type: "pgtrack"
         start_time: "14:30"
         end_time: "16:00"
@@ -383,7 +383,7 @@ schedule:
         papers:
           - title: ""
             authors: ""
-      - title: "Fórum PG"
+      - title: "Fórum PG: Algoritmos Paralelos e Distribuídos"
         type: "pgtrack"
         start_time: "17:30"
         end_time: "18:30"
