@@ -1,5 +1,5 @@
 tutorials:
-  - id: MC1
+  - id: WIA1
     date: "Horário: TBD"
     title: "Tutorial de Redes Neuras, do zero até redes convolucionais"
     abstract: "Nesse tutorial você vai conhecer a base do funcionamento das redes neurais profundas que vem revolucionando a área de aprendizado de máquina. Você vai aprender sobre o funcionamento de um único Perceptron, do Perceptron Multicamadas e Redes Neurais Convolucionais com aplicações em visão computacional. Você vai aprender a colocar esses conceitos em prática usando pytorch. Para acompanhar esse tutorial é necessário ter conhecimentos básicos de programação em python, álgebra linear e cálculo."
