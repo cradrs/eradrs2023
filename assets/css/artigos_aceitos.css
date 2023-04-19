@@ -1,0 +1,14 @@
+h4.session-info,
+h6.session-info {
+    margin-bottom: 0.2rem;
+    padding: 0;
+}
+
+span.session-info {
+    font-weight: 450;
+}
+
+div.session-info,
+div.session-paper {
+    margin-bottom: 1rem;
+}
