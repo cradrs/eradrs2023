@@ -1,57 +1,155 @@
-IC:
-    - sessao: IC1 - Aplicações - 18/04 (14:30 - 15:30)
-      chair: Guilherme Galante (UNIOESTE)
-      local: Sala 102 da Informática
-      artigos:
-          - titulo: Paralelização de uma Aplicação de Câmara de Mistura com OpenMP
-            autores: Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-          - titulo: Uso de Rotinas StarPU em Simulação de Secagem de Grãos
-            autores: Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-          - titulo: Otimizando o diagnóstico automatizado de glaucoma a partir de imagens de fundo de olho
-            autores:
-                Lucas Ceschini (UNISINOS), Lucas Policarpo (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Rodrigo Righi (UNISINOS) e
-                Gabriel Ramos (UNISINOS)
-          - titulo: Aplicação de Vídeo com Flink, Storm e SPar em Multicores
-            autores: Leonardo Faé (PUCRS),  Dalvan Griebler (PUCRS/SETREM - Brazil) e Isabel Manssour (PUCRS)
-    - sessao: IC2 - Paralelismo - 19/04 (14:30 - 15:30)
-      chair: Charles Miers (UDESC)
-      local: Sala 102 da Informática
-      artigos:
-          - titulo: Paralelização de uma Aplicação de Câmara de Mistura com OpenMP
-            autores: Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-          - titulo: Uso de Rotinas StarPU em Simulação de Secagem de Grãos
-            autores: Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-          - titulo: Otimizando o diagnóstico automatizado de glaucoma a partir de imagens de fundo de olho
-            autores:
-                Lucas Ceschini (UNISINOS), Lucas Policarpo (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Rodrigo Righi (UNISINOS) e
-                Gabriel Ramos (UNISINOS)
-          - titulo: Aplicação de Vídeo com Flink, Storm e SPar em Multicores
-            autores: Leonardo Faé (PUCRS),  Dalvan Griebler (PUCRS/SETREM - Brazil) e Isabel Manssour (PUCRS)
-    - sessao: IC3 - Virtualização e Nuvem - 20/04 (14:30 - 15:30)
-      chair: Edmar Belorini (UNIOESTE)
-      local: Sala 102 da Informática
-      artigos:
-          - titulo: Paralelização de uma Aplicação de Câmara de Mistura com OpenMP
-            autores: Glener Lanes Pizzolato (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-          - titulo: Uso de Rotinas StarPU em Simulação de Secagem de Grãos
-            autores: Hígor Uélinton da Silva (UNIPAMPA) e Claudio Schepke (UNIPAMPA)
-          - titulo: Otimizando o diagnóstico automatizado de glaucoma a partir de imagens de fundo de olho
-            autores:
-                Lucas Ceschini (UNISINOS), Lucas Policarpo (UNISINOS), Vinicius Facco Rodrigues (UNISINOS), Rodrigo Righi (UNISINOS) e
-                Gabriel Ramos (UNISINOS)
-          - titulo: Aplicação de Vídeo com Flink, Storm e SPar em Multicores
-            autores: Leonardo Faé (PUCRS),  Dalvan Griebler (PUCRS/SETREM - Brazil) e Isabel Manssour (PUCRS)
+ic-track:
 
-PG:
-    - sessao:
-          chair:
-          local:
-          artigos:
-              - titulo:
-                autores:
-              - titulo:
-                autores:
-              - titulo:
-                autores:
-              - titulo:
-                autores:
+pg-track:
+  -
+    id: "PG1"
+    title: "Escalonamento e Balanceamento de Carga, Avaliação, Medição e Predição de Desempenho"
+    date: "10/05"
+    start_time: "14:30"
+    end_time: "16:00"
+    chair:
+      name: "TBD"
+    room: "TBD"
+    papers:
+      - title: "Desafios da modelagem do refinamento adaptativo das malhas: um estudo sobre o MARE2DEM"
+        authors:
+          - name: "Bruno Alves"
+            institution: "UFRGS"
+          - name: "Lucas Mello Schnorr"
+            institution: "UFRGS"
+      - title: "EnergyLB: combinando balanceamento de carga dinâmico com técnicas DVFS para reduzir o consumo de energia"
+        authors:
+          - name: "Cristiano Alex Künas"
+            institution: "UFRGS"
+          - name: "Matthias Diener"
+            institution: "UFRGS"
+          - name: "Edson Luiz Padoin"
+            institution: "UNIJUI"
+          - name: "Philippe Olivier Alexandre Navaux"
+            institution: "UFRGS"
+      - title: "Avaliando Paralelismo em Dispositivos com Recursos Limitados"
+        authors:
+          - name: "Renato Barreto Hoffmann Filho"
+            institution: "PUCRS"
+          - name: "Dalvan Griebler"
+            institution: "PUCRS/SETREM"
+      - title: "Uma proposta para sistemas de arquivos criptográficos em Kernel-Space"
+        authors:
+          - name: "Jorge Correia"
+            institution: "UFPR"
+          - name: "Wagner Zola"
+            institution: "UFPR"
+      - title: "Geração de Timetabling considerando avaliação do ENADE"
+        authors:
+          - name: "Matheus Fabian"
+            institution: "UPF"
+          - name: "Marcelo Rebonatto"
+            institution: "UPF"
+      - title: "Enabling Dynamic Rescheduling in Kubernetes Environments with Kubernetes Scheduling Extension (KSE)"
+        authors:
+          - name: "Pedro Moritz de Carvalho Neto"
+            institution: "UFSC"
+          - name: "Márcio Castro"
+            institution: "UFSC"
+          - name: "Frank Siqueira"
+            institution: "UFSC"
+  -
+    id: "PG2"
+    title: "Aprendizado de Máquina e Computação de Alto Desempenho, Aplicações de Computação de Alto Desempenho em Ciências e Engenharias"
+    date: "11/05 (Quinta-feira)"
+    start_time: "14:30"
+    end_time: "16:00"
+    chair:
+      name: "TBD"
+    room: "TBD"
+    papers:
+      - title: "Utilização de aprendizado por reforço para adaptar a quantidade de recursos e acelerar aplicações"
+        authors:
+          - name: "Lucas Nesi"
+            institution: "UFRGS"
+          - name: "Lucas Mello Schnorr"
+            institution: "UFRGS"
+          - name: "Arnaud Legrand"
+            institution: "CNRS - France"
+      - title: "Otimização do Mapeamento de Threads e Dados em Aplicações com Memória Transacional  usando Aprendizado de Máquina"
+        authors:
+          - name: "Tiago Perlin"
+            institution: "UFPEL"
+          - name: "Andre Rauber Du Bois"
+            institution: "UFPEL"
+      - title: "Uma proposta para Federated Learning em Cibersegurança"
+        authors:
+          - name: "Bruno Meyer"
+            institution: "UFPR"
+          - name: "Aurora Pozo"
+            institution: "UFPR"
+          - name: "Michele Nogueira"
+            institution: "UFMG"
+          - name: "Wagner Zola"
+            institution: "UFPR"
+      - title: "Avaliação de Diretivas Paralelas em uma Aplicação de Simulação de Secagem de Grãos"
+        authors:
+          - name: "Natiele Lucca"
+            institution: "UNIPAMPA"
+          - name: "Claudio Schepke"
+            institution: "UNIPAMPA"
+          - name: "Aline Mello"
+            institution: "UNIPAMPA"
+          - name: "Anna Victória Gonçalves Marciano"
+            institution: "UNIPAMPA"
+      - title: "Executando na Nuvem um Detector de Padrões de Acesso de E/S"
+        authors:
+          - name: "Cristiano Alex Künas"
+            institution: "UFRGS"
+          - name: "Edson Luiz Padoin"
+            institution: "UNIJUI"
+          - name: "Jean L Bez"
+            institution: "Lawrence Berkeley National Laboratory - USA"
+          - name: "Alexandre Carissimi"
+            institution: "UFRGS"
+          - name: "Philippe Olivier Alexandre Navaux"
+            institution: "UFRGS"
+      - title: "Utilização de Machine Learning para Irrigação de Precisão"
+        authors:
+          - name: "Rogerio P dos Santos"
+            institution: "Universidade Lusofona - Portugal"
+          - name: "Marko Beko"
+            institution: "Universidade Lusofona - Portugal"
+          - name: "Valderi Leithardt"
+            institution: "Instituto Politécnico de Portalegre - Portugal"
+  -
+    id: "PG3"
+    title: "Algoritmos Paralelos e Distribuídos"
+    date: "12/05 (Sexta-feira)"
+    start_time: "17:30"
+    end_time: "18:30"
+    chair:
+      name: "TBD"
+    room: "TBD"
+    papers:
+      - title: "Uma proposta de análise comparativa de desempenho de implementações Barnes-Hut em clusters de computadores"
+        authors:
+          - name: "Rodrigo Morante Blanco"
+            institution: "UFPR"
+          - name: "Wagner Zola"
+            institution: "UFPR"
+      - title: "Avaliação da Auto-Adaptação de Micro-Lote para aplicação de Processamento de Streaming em GPUs"
+        authors:
+          - name: "Ricardo Leonarczyk"
+            institution: "SETREM"
+          - name: "Dalvan Griebler"
+            institution: "PUCRS"
+      - title: "Provendo melhorias na geração de código para GPUs na SPar"
+        authors:
+          - name: "Gabriell Araujo"
+            institution: "PUCRS"
+          - name: "Dalvan Griebler"
+            institution: "PUCRS"
+          - name: "Luiz Gustavo Fernandes"
+            institution: "PUCRS"
+      - title: "DOCTRUST: Plataforma Autossoberana para Autenticação e Verificação de Documentos Digitais"
+        authors:
+          - name: "Janaina Fontana Biffi Duarte"
+            institution: "UDESC"
+          - name: "Maurício Aronne Pillon"
+            institution: "UDESC"
