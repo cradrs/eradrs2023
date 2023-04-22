@@ -55,6 +55,14 @@ layout: default
                 </ul>
             </div>
             <div class="col-lg-6 col-sm-12">
+                <h4>Coordenação Painel</h4>
+                <ul>
+                    {% for nome in site.data.organizacao.coordenacao-painel %}
+                    <li>{{ nome }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-lg-6 col-sm-12">
         <h4>WHPC</h4>
         <ul>
           {% for nome in site.data.organizacao.whpc %}

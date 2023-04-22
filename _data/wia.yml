@@ -10,3 +10,22 @@ tutorials:
       - name: "Adilson Medronha"
         bio: "Graduando em Ciência da Computação na PUCRS. Possui experiência em aprendizado de máquina aplicado a dados estruturados e em visão computacional."
         photo: "adilsonmedronha.jpeg"
+
+painel:
+  - id: Painel
+    date: "Horário: TBD"
+    title: "Painel de NLP"
+    abstract: "Com o desenvolvimento de modelos como ChatGPT, o Processamento de Linguagem Natural (PLN) vem sendo discutido cada vez mais como um caminho para a obtenção de uma Inteligência Artificial Geral (AGI - Artificial General Intelligence). O processamento de texto por parte de computadores passou por diversas fases ao longo dos anos, partindo de simples representações estatísticas das palavras até os atuais, e complexos, modelos baseados em redes neurais profundas. Neste painel, primeiro apresentaremos uma introdução da área através dos fundamentos gerais de PLN, considerando as tarefas mais utilizadas e as diferentes maneiras de representação de texto. Na segunda parte, discutiremos as novas arquiteturas neurais responsáveis pelas recentes inovações da área, explorando seu funcionamento e suas capacidades."
+    authors:
+      - name: "Otavio Parraga"
+        bio: "Cientista de dados na Unimed Porto Alegre, Otávio é bacharel em Sistemas de Informação e Mestre em Ciência da Computação, ambos pela PUCRS. Com vasta experiência na área, já trabalhou em diversas empresas sempre atuando com sistemas de Aprendizado de Máquina, Processamento de Linguagem Natural, e recentemente Large Language Models."
+        photo: "otavioparraga.jpeg"
+      - name: "João Paulo Aires"
+        bio: "Doutor em Ciência da Computação pela PUCRS e Pesquisador em Processamento de Linguagem Natural e Aprendizado de Máquina. Realizou Pós-doutorado em Machine Translation pela Charles University (República Tcheca) e atualmente é pós-doutorando em Similaridade Semântica na PUCRS."
+        photo: "joaopauloaires.jpeg"
+      - name: "Dalvan Griebler"
+        bio: "Realizou Pós-Doutorado em Ciência da Computação na Pontifícia Universidade Católica do Rio Grande do Sul - PUCRS (2021). Possui Doutorado em Informática pela Universitá di Pisa - UNIPI (2016) e Doutorado em Ciência da Computação pela PUCRS (2016). Possui Mestrado em Ciência da Computação pela PUCRS (2012) e Graduação em Redes de Computadores pela Sociedade Educacional Três de Maio - Setrem (2009). É Professor Adjunto da Escola Politécnica, do Programa de Pós-Graduação em Ciência da Computação (PPGCC) e da Pós-Graduação em Ecologia e Evolução da Biodiversidade (PG-EEB) na PUCRS, onde é Coordenador de Pesquisa no Grupo de Modelagem de Aplicações Paralelas (GMAP) e do Grupo de Inteligência Artificial (AIG). Atua também como Professor Associado da Faculdade Três de Maio e Coordenador do Laboratório de Pesquisas Avançadas para Computação em Nuvem (LARCC) na Setrem. Possui interesse de pesquisa nos seguintes tópicos: computação paralela; ciência de dados; engenharia de dados; big data; data stream; inteligência artificial; linguagens de programação; modelagem de aplicações paralelas; computação em nuvem; sistemas autonômicos e autoadaptativos; data center; redes de computadores; e internet das coisas."
+        photo: "dalvangriebler.jpg"
+      - name: "Lucas Silveira Kupssinskü"
+        bio: "Doutor em Computação Aplicada pela Unisinos com mais de nove anos de experiência em desenvolvimento de sistemas utilizando metodologias ágeis, desempenhando papéis de Desenvolvedor, Analista de Sistemas e Scrum Master. Lucas tem experiência como professor em cursos de extensão, técnico, graduação (UFRGS e PUCRS) e Pós-Graduação Lato Sensu em disciplinas de Computação e Aprendizado de Máquina. Seus principais interesses de pesquisa são Mineração de Dados e Aprendizado de Máquina."
+        photo: "lucassilveira.jpeg"

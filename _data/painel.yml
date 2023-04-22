@@ -1,0 +1,12 @@
+painel:
+  - id: Painel 1
+    date: "Horário: TBD"
+    title: "Título"
+    abstract: "Abstract"
+    authors:
+      - name: "Autor 1"
+        bio: "Bio 1"
+        photo: "foto.JPG"
+      - name: "Autor 2"
+        bio: "Bio 2"
+        photo: "foto.png"
