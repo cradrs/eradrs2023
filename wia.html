@@ -2,9 +2,24 @@
 layout: default
 ---
 
+
 <section id="light-card">
     <div class="p-2 container col-sm-12 col-lg-8 text-justify">
         <h2 class="p-4 text-center">WIA - Workshop de Inteligência Artificial</h2>
+        <br>
+        <h3>Organização Geral</h3>
+        <div class="col-lg-8 col-sm-12">
+            <ul>
+                <li>Dalvan Griebler (PUCRS/Setrem)</li>
+                <li>Lucas Silveira Kupssinskü (PUCRS)</li>
+            </ul>
+        </div>
+    </div>
+    <br><br>
+</section>
+
+<section id="light-card">
+    <div class="p-2 container col-sm-12 col-lg-8 text-justify">
         <div class="tab-content">
             {% for tutorial in site.data.wia.tutorials %}
             <div id="{{ tutorial.id }}" class="tutorial">
@@ -60,17 +75,5 @@ layout: default
     <br><br>
 </section>
 
-<section id="light-card">
-    <div class="p-2 container col-sm-12 col-lg-8 text-justify">
-        <h2 class="p-4 text-center">Organização Geral</h2>
-        <div class="col-lg-8 col-sm-12">
-            <ul>
-                <li>Dalvan Griebler (PUCRS/Setrem)</li>
-                <li>Lucas Silveira Kupssinskü (PUCRS)</li>
-            </ul>
-        </div>
-    </div>
-    <br><br>
-</section>
 
 
