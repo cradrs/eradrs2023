@@ -80,7 +80,7 @@ schedule:
         room: "Local: TBD"
         speakers:
           - name: "TBD"
-      - title: "Fórum IC"
+      - title: "Fórum IC: Algoritmos e Aplicações Paralelas"
         link: "artigos_aceitos.html#IC1"
         type: "ictrack"
         start_time: "14:30"
@@ -206,7 +206,7 @@ schedule:
         room: "Local: TBD"
         speakers:
           - name: "SDC"
-      - title: "Fórum IC"
+      - title: "Fórum IC: HPC e Computação em Nuvem"
         link: "artigos_aceitos.html#IC2"
         type: "ictrack"
         start_time: "14:30"
@@ -347,7 +347,7 @@ schedule:
         speakers:
           - name: "Thiago Haidar"
             institution: "Seagate"
-      - title: "Fórum IC"
+      - title: "Fórum IC: Avaliação de Desempenho"
         link: "artigos_aceitos.html#IC3"
         type: "ictrack"
         start_time: "14:30"
@@ -376,7 +376,7 @@ schedule:
         room: "Local: TBD"
         speakers:
           - name: "TBD"
-      - title: "Fórum IC"
+      - title: "Fórum IC: Programação Paralela"
         link: "artigos_aceitos.html#IC4"
         type: "ictrack"
         start_time: "17:30"
