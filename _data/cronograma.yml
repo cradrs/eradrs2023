@@ -68,7 +68,7 @@ schedule:
         end_time: "12:00"
         room: "Local: TBD"
         speakers:
-          - name: "TBD"
+          - name: "Versatus"
       - title: "Almoço"
         type: "general"
         start_time: "12:00"
@@ -194,7 +194,7 @@ schedule:
         end_time: "12:00"
         room: "Local: TBD"
         speakers:
-          - name: "Versatus"
+          - name: "HPE"
       - title: "Almoço"
         type: "general"
         start_time: "12:00"
