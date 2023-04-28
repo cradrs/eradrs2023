@@ -29,5 +29,13 @@ keynotes:
     abstract: "Na Globo, os times estão constantemente evoluindo tecnologicamente. Como resultado, novas ferramentas são criadas e novos conhecimentos são compartilhados diariamente. Isso também acontece no time de Backstage Interatividade,  que desenvolve aplicações capazes de atender mais de 3,2 milhões de requisições por minuto sem impacto para o usuário final. E estamos sempre buscando novas formas de melhorar o desempenho de nossas aplicações. Nesta apresentação, discutiremos os resultados e limitações observados em uma prova de conceito. Nosso objetivo foi explorar maneiras de reduzir o tempo de resposta entre o servidor de aplicação e o cliente. Para isso, substituímos os recursos exclusivos para cache por técnicas de cache space-efficienty in-memory na aplicação principal e sincronizamos esses dados em um cluster com múltiplos nós."
     speaker:
       name: "Gustavo Castro"
-      bio: "é especialista em Ciência de Dados pela Universidade Norte do Paraná, graduado em Tecnologia em Sistemas para Internet pelo Instituto Federal de Educação Ciência e Tecnologia Sul-rio-grandense. Possui 9 anos de experiência como desenvolvedor, tendo em foco aplicações de larga escala,"
+      bio: "é especialista em Ciência de Dados pela Universidade Norte do Paraná, graduado em Tecnologia em Sistemas para Internet pelo Instituto Federal de Educação Ciência e Tecnologia Sul-rio-grandense. Possui 9 anos de experiência como desenvolvedor, tendo em foco aplicações de larga escala."
       photo: "GustavoCastro.png"
+  - id: PI3
+    date: "Horário: TBD"
+    title: "Palestra Industrial 3 (SDC): HPC - Últimos 10 Anos, para onde vamos?"
+    abstract: "Falaremos sobre os últimos 10 anos de tecnologia e as tendências para os próximos anos em HPC, Armazenamento e Inteligencia artificial."
+    speaker:
+      name: "Guilherme Friol"
+      bio: "é especialista em computação com anos de experiência em ambientes computacionais de alta demanda, virtualização e HPC. Atua como consultor em arquitetura e otimização de sistemas de alto desempenho. Desenvolveu projetos relevantes junto a grandes instituições de pesquisa e notórios nomes da computação nacional em machine learning e redes neurais. Entre os projetos estão: Predição de Inibidores de Protease de Cisteína para Agentes Tripanocidas e Câncer (USP); Simulação de controle de veículo espacial e orientação de órbita (LAC-INPE); Pesquisa sobre plasmas astrofísicos e turbulências espaciais (ITA); Pesquisa em Astrofísica e física molecular (UNIVAP), entre  outros."
+      photo: "GuilhermeFriol.png"
