@@ -263,7 +263,7 @@ schedule:
         room: "Local: TBD"
         speakers:
           - name: "Marco Zanata"
-            institution: "UFSC"
+            institution: "UFPR"
       - title: "Jantar"
         type: "general"
         start_time: "20:00"
