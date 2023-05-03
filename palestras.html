@@ -13,6 +13,9 @@ title: "Palestras"
             {% for keynote in site.data.palestras.keynotes %}
                 <div id="{{ keynote.id }}" class="keynote">
                     <h3>{{ keynote.title }}</h3>
+                    <p class="lead keynote-date">
+                        <b>Horário e local</b>: {{ keynote.date }}
+                    </p>
                     <p class="lead">
                         <b>Resumo</b>: {{ keynote.abstract }}
                     </p>
