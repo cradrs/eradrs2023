@@ -8,7 +8,8 @@
 
     p.lead.author-bio,
     p.lead.speaker-bio,
-    li.lead {
+    li.lead,
+    td.lead {
         font-size: 0.72rem;
     }
 
@@ -33,7 +34,8 @@
 
     p.lead.author-bio,
     p.lead.speaker-bio,
-    li.lead {
+    li.lead,
+    td.lead {
         font-size: 1.125rem;
     }
 

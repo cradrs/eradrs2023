@@ -6,5 +6,66 @@ title: "WHPC"
 <section id="light-card">
     <div class="p-2 container col-sm-12 col-lg-8 text-justify">
         <h2 class="p-4 text-center">WHPC</h2>
+        <p class="lead">
+            As atividades do WHPC serão realizadas no dia 11 de maio de 2023, das 14h30 às 16h. Confira a programação completa e os detalhes de cada atividade abaixo.
+        </p>
+        <div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Horário</th>
+                        <th scope="col">Atividade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">14:30 - 14:35</th>
+                        <td class="lead text-center">Boas-vindas e apresentação inicial</td>
+                    </tr>
+                    <tr class="clickable" onclick="window.location='#WHPC1'">
+                        <th scope="row">14:35 - 15:00</th>
+                        <td class="lead text-center">Projeto ADA - Mulheres na Computação</td>
+                    </tr>
+                    <tr class="clickable" onclick="window.location='#WHPC2'">
+                        <th scope="row">15:00 - 15:15</th>
+                        <td class="lead text-center">Projeto Gurias da Politécnica</td>
+                    </tr>
+                    <tr class="clickable" onclick="window.location='#WHPC3'">
+                        <th scope="row">15:15 - 15:50</th>
+                        <td class="lead text-center">Palestra: Como o gênero influencia a saúde mental de quem trabalha?</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">15:50 - 16:00</th>
+                        <td class="lead text-center">Espaço para perguntas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div>
+            {% for session in site.data.whpc.sessions %}
+            <div id="{{ session.id }}">
+                <h3>{{ session.title }}</h3>
+                <p class="lead">
+                    <b>Descrição</b>: {{ session.description }}
+                </p>
+                <div class="row">
+                    <h4>Apresentadoras</h4>
+                    {% for speaker in session.speakers %}
+                    <div class="col-md tutorial-author">
+                        {% if speaker.photo %}
+                        <img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}">
+                        {% endif %}
+                        <h5>{{ speaker.name }}</h5>
+                        <p class="lead author-bio">
+                            {{ speaker.bio }}
+                        </p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
     </div>
+    <br><br>
 </section>
