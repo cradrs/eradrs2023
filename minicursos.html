@@ -12,7 +12,11 @@ title: "Minicursos"
         <div class="tab-content">
             {% for tutorial in site.data.minicursos.tutorials %}
             <div id="{{ tutorial.id }}" class="tutorial">
-                <h3>{{ tutorial.id }}: {{ tutorial.title }}</h3>
+                <h3>{{ tutorial.name }}</h3>
+                <h3>{{ tutorial.title }}</h3>
+                <p class="lead tutorial-date">
+                    <b>Horário e local</b>: {{ tutorial.date }}
+                </p>
                 <p class="lead">
                     <b>Resumo</b>: {{ tutorial.abstract }}
                 </p>

@@ -12,6 +12,7 @@ title: "Palestras"
         <div class="tab-content">
             {% for keynote in site.data.palestras.keynotes %}
                 <div id="{{ keynote.id }}" class="keynote">
+                    <h3>{{ keynote.name }}</h3>
                     <h3>{{ keynote.title }}</h3>
                     <p class="lead keynote-date">
                         <b>Horário e local</b>: {{ keynote.date }}
@@ -22,7 +23,9 @@ title: "Palestras"
                     <h4>Palestrante</h4>
                     <div class="row">
                         <div class col-md-12>
+                            {% if keynote.speaker.photo != "" %}
                             <img class="speaker-photo float-start" src="img/{{ keynote.speaker.photo }}" alt="{{ keynote.speaker.name }}">
+                            {% endif %}
                             <p class="lead speaker-bio">
                                 <b>{{ keynote.speaker.name }}</b> {{ keynote.speaker.bio }}
                             </p>

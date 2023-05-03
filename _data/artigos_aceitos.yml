@@ -135,7 +135,7 @@ ic-track:
     end_time: "16:00"
     chair:
       name: "TBD"
-    room: "Auditórios 517 e 516"
+    room: "Auditórios 516"
     papers:
       - title: "Implementação e Avaliação de Desempenho da Linguagem Rust no NAS Embarassingly Parallel Benchmark"
         authors:
