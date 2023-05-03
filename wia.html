@@ -10,8 +10,8 @@ title: "Workshop de Inteligência Artificial"
         <h3>Organização Geral</h3>
         <div class="col-lg-8 col-sm-12">
             <ul>
-                <li>Dalvan Griebler (PUCRS/Setrem)</li>
-                <li>Lucas Silveira Kupssinskü (PUCRS)</li>
+                <li class="lead">Dalvan Griebler (PUCRS/Setrem)</li>
+                <li class="lead">Lucas Silveira Kupssinskü (PUCRS)</li>
             </ul>
         </div>
     </div>
@@ -20,57 +20,53 @@ title: "Workshop de Inteligência Artificial"
 
 <section id="light-card">
     <div class="p-2 container col-sm-12 col-lg-8 text-justify">
-        <div class="tab-content">
-            {% for tutorial in site.data.wia.tutorials %}
-            <div id="{{ tutorial.id }}" class="tutorial">
-                <h3>{{ tutorial.title }}</h3>
-                <p class="lead">
-                    <b>Resumo</b>: {{ tutorial.abstract }}
-                </p>
-                <div class="row">
-                    <h4>Autores</h4>
-                    {% for author in tutorial.authors %}
-                    <div class="col-md tutorial-author">
-                        {% if author.photo %}
-                        <img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}">
-                        {% endif %}
-                        <h5>{{ author.name }}</h5>
-                        <p class="lead author-bio">
-                            {{ author.bio }}
-                        </p>
-                    </div>
-                    {% endfor %}
+        {% for tutorial in site.data.wia.tutorials %}
+        <div id="{{ tutorial.id }}" class="tutorial">
+            <h3>{{ tutorial.title }}</h3>
+            <p class="lead">
+                <b>Resumo</b>: {{ tutorial.abstract }}
+            </p>
+            <div class="row">
+                <h4>Autores</h4>
+                {% for author in tutorial.authors %}
+                <div class="col-md tutorial-author">
+                    {% if author.photo %}
+                    <img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}">
+                    {% endif %}
+                    <h5>{{ author.name }}</h5>
+                    <p class="lead author-bio">
+                        {{ author.bio }}
+                    </p>
                 </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
+        {% endfor %}
     </div>
     <br><br>
     <div class="p-2 container col-sm-12 col-lg-8 text-justify">
-        <div class="tab-content">
-            {% for p in site.data.wia.painel %}
-            <div id="{{ tutorial.id }}" class="tutorial">
-                <h3>{{ p.title }}</h3>
-                <p class="lead">
-                    <b>Resumo</b>: {{ p.abstract }}
-                </p>
-                <div class="row">
-                    <h4>Autores</h4>
-                    {% for author in p.authors %}
-                    <div class="col-md tutorial-author">
-                        {% if author.photo %}
-                        <img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}">
-                        {% endif %}
-                        <h5>{{ author.name }}</h5>
-                        <p class="lead author-bio">
-                            {{ author.bio }}
-                        </p>
-                    </div>
-                    {% endfor %}
+        {% for p in site.data.wia.painel %}
+        <div id="{{ p.id }}" class="tutorial">
+            <h3>{{ p.title }}</h3>
+            <p class="lead">
+                <b>Resumo</b>: {{ p.abstract }}
+            </p>
+            <div class="row">
+                <h4>Autores</h4>
+                {% for author in p.authors %}
+                <div class="col-md tutorial-author">
+                    {% if author.photo %}
+                    <img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}">
+                    {% endif %}
+                    <h5>{{ author.name }}</h5>
+                    <p class="lead author-bio">
+                        {{ author.bio }}
+                    </p>
                 </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
+        {% endfor %}
     </div>
     <br><br>
 </section>

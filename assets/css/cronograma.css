@@ -32,6 +32,10 @@ p.event-paper-authors {
     margin-bottom: 0;
 }
 
+p.event-paper-authors {
+    padding-bottom: 0.3rem;
+}
+
 p.event-time,
 span.event-speaker,
 span.event-chair,

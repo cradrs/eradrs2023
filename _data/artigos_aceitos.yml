@@ -7,7 +7,7 @@ ic-track:
     end_time: "16:00"
     chair:
       name: "TBD"
-    room: "Sala: TBD"
+    room: "Auditório 517"
     papers:
       - title: "Comparação entre as Diretivas parallel do e teams distribute de OpenMP em uma Aplicação de Meios Porosos"
         authors:
@@ -67,7 +67,7 @@ ic-track:
     end_time: "16:00"
     chair:
       name: "TBD"
-    room: "Sala: TBD"
+    room: "Auditório 517"
     papers:
       - title: "Cloud computing para deploy de modelos de deep learning para a classificação de Retinopatia Diabética"
         authors:
@@ -135,7 +135,7 @@ ic-track:
     end_time: "16:00"
     chair:
       name: "TBD"
-    room: "Sala: TBD"
+    room: "Auditórios 517 e 516"
     papers:
       - title: "Implementação e Avaliação de Desempenho da Linguagem Rust no NAS Embarassingly Parallel Benchmark"
         authors:
@@ -191,11 +191,11 @@ ic-track:
     id: "IC4"
     title: "Programação Paralela"
     date: "12/05"
-    start_time: "17:30"
-    end_time: "18:30"
+    start_time: "16:30"
+    end_time: "17:30"
     chair:
       name: "TBD"
-    room: "Sala: TBD"
+    room: "Auditório 517"
     papers:
       - title: "Treinamento Paralelo de Redes Neurais usando o Modelo de Atores"
         authors:
@@ -241,7 +241,7 @@ pg-track:
     end_time: "16:00"
     chair:
       name: "TBD"
-    room: "Sala: TBD"
+    room: "Auditório 516"
     papers:
       - title: "Desafios da modelagem do refinamento adaptativo das malhas: um estudo sobre o MARE2DEM"
         authors:
@@ -293,7 +293,7 @@ pg-track:
     end_time: "16:00"
     chair:
       name: "TBD"
-    room: "Sala: TBD"
+    room: "Auditório 516"
     papers:
       - title: "Utilização de aprendizado por reforço para adaptar a quantidade de recursos e acelerar aplicações"
         authors:
@@ -353,11 +353,11 @@ pg-track:
     id: "PG3"
     title: "Algoritmos Paralelos e Distribuídos"
     date: "12/05"
-    start_time: "17:30"
-    end_time: "18:30"
+    start_time: "16:30"
+    end_time: "17:30"
     chair:
       name: "TBD"
-    room: "Sala: TBD"
+    room: "Auditório 516"
     papers:
       - title: "Uma proposta de análise comparativa de desempenho de implementações Barnes-Hut em clusters de computadores"
         authors:
