@@ -72,10 +72,10 @@ schedule:
       - title: "Almoço"
         type: "general"
         start_time: "12:00"
-        end_time: "13:30"
+        end_time: "14:00"
       - title: "Palestra Industrial"
         type: "lecture"
-        start_time: "13:30"
+        start_time: "14:00"
         end_time: "14:30"
         room: "Auditório do Prédio 32"
         speakers:
