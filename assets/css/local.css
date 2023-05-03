@@ -7,3 +7,19 @@
     padding-left: calc(var(--bs-gutter-x) * .5);
     padding-right: calc(var(--bs-gutter-x) * .5);
 }
+
+.accordion {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .mapa {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .mapa {
+        width: 75%;
+    }
+}

@@ -38,8 +38,86 @@ title: "Local"
             O campus da PUCRS oferece diversas opções de alimentação para todas as refeições do dia. Na <a href="https://www.pucrs.br/servicos/" target="_blank">página de serviços</a> da PUCRS, é possível filtrar por restaurantes e lancherias, para encontrar informações de contato, localização e horário de funcionamento. Além disso, existem algumas opções no entorno do campus.
         </p>
         <p class="lead">
-            Clique <a href="https://www.google.com/maps/search/Restaurantes+perto+de+PUCRS/@-30.0569229,-51.1766807,16z/data=!4m2!2m1!6e5" target="_blank">aqui</a> para visualizar algumas opções de alimentação na PUCRS e entorno do campus.
+            Abaixo, disponibilizamos um mapa com as principais opções para alimentação na PUCRS e nas proximidades do prédio 32. Além de auxiliar na localização dos estabelecimentos, o mapa contém informações relativas aos tipos de refeições disponíveis em cada local.
         </p>
+        <figure class="d-flex justify-content-center">
+            <img class="mapa" src="img/mapa_restaurantes.png" alt="Restaurantes e lancherias na PUCRS">
+        </figure>
+        <p class="lead">
+            Além do mapa, disponibilizamos as redes sociais e cardápios digitais dos estabelecimentos que dispõem dessas informações. Confira abaixo:
+        </p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Principais restaurantes na PUCRS
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">Prédio</th>
+                                    <th scope="col">Informações Adicionais</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for restaurante in site.data.restaurantes.pucrs %}
+                                <tr>
+                                    <th scope="row">{{ restaurante.nome }}</th>
+                                    <td class="text-center">{{ restaurante.predio }}</td>
+                                    <td class="text-center">
+                                        {% if restaurante.informacoes.url %}
+                                        <a href="{{ restaurante.informacoes.url }}" target="_blank">{{ restaurante.informacoes.texto }}</a>
+                                        {% else %}
+                                        {{ restaurante.informacoes.texto }}
+                                        {% endif %}
+                                        
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Principais restaurantes nas redondezas da PUCRS
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">Endereço</th>
+                                    <th scope="col">Informações Adicionais</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for restaurante in site.data.restaurantes.proximidades %}
+                                <tr>
+                                    <th scope="row">{{ restaurante.nome }}</th>
+                                    <td class="text-center">{{ restaurante.endereco }}</td>
+                                    <td class="text-center">
+                                        {% if restaurante.informacoes.url %}
+                                        <a href="{{ restaurante.informacoes.url }}" target="_blank">{{ restaurante.informacoes.texto }}</a>
+                                        {% else %}
+                                        {{ restaurante.informacoes.texto }}
+                                        {% endif %}
+                                        
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>        
         <h4>PUCRS</h4>
         <p class="lead">
             Além das diversas opções de alimentação, a infraestrutura da PUCRS dispõe de algumas opções de lazer e serviços. Abaixo listamos algumas dessas opções disponíveis para visitantes, com o link para mais informações:

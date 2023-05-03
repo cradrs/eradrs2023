@@ -1,0 +1,48 @@
+pucrs:
+  - predio: "5"
+    nome: "Casa 5 Bar e Café"
+    informacoes:
+      texto: "@casa5barecafe"
+      url: "https://www.instagram.com/casa5barecafe/"
+  - predio: "6"
+    nome: "Garten Bistrô"
+    informacoes:
+      texto: "@gartenbistro"
+      url: "https://www.instagram.com/gartenbistro/"
+  - predio: "12"
+    nome: "Bar Doze"
+    informacoes:
+      texto: "@bar12pucrs"
+      url: "https://www.instagram.com/bar12pucrs/"
+  - predio: "15"
+    nome: "Fifteen Sports Bar"
+    informacoes:
+      texto: "@fifteensportsbar"
+      url: "https://www.instagram.com/fifteensportsbar/"
+  - predio: "19"
+    nome: "Palatu's"
+    informacoes:
+      texto: "@palatuspuc"
+      url: "https://www.instagram.com/palatuspuc/"
+  - predio: "32"
+    nome: "Espaço 32"
+    informacoes:
+      texto: "@espaco32"
+      url: "https://www.instagram.com/espaco32/"
+  - predio: "50"
+    nome: "Intervalo 50"
+    informacoes:
+      texto: "@intervalo50"
+      url: "https://www.instagram.com/intervalo50/"
+
+proximidades:
+  - endereco: "Av. Bento Gonçalves, 4301"
+    nome: "Silva Lanches"
+    informacoes:
+      texto: "Cardápio digital"
+      url: "https://www.cardapiodigital.io/silvalanches/catalog"
+  - endereco: "Av. Bento Gonçalves, 1843"
+    nome: "Cantare Restaurante"
+    informacoes:
+      texto: "@cantarerestaurante"
+      url: "https://www.instagram.com/cantarerestaurante/"
