@@ -54,7 +54,7 @@ title: "WHPC"
                     {% for speaker in session.speakers %}
                     <div class="col-md tutorial-author">
                         {% if speaker.photo %}
-                        <img class="rounded-circle author-photo" src="img/{{ author.photo }}" alt="{{ author.name }}">
+                        <img class="rounded-circle author-photo" src="img/{{ speaker.photo }}" alt="{{ speaker.name }}">
                         {% endif %}
                         <h5>{{ speaker.name }}</h5>
                         <p class="lead author-bio">
