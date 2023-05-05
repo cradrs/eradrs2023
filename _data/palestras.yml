@@ -20,12 +20,12 @@ keynotes:
   - id: PI1
     date: "10/05 (11:30 - 12:00) — Auditório do Prédio 32"
     name: "Palestra Industrial 1"
-    title: "Versatus: TBD"
-    abstract: "TBD"
+    title: "Versatus: Versatus HPC - Soluções de alto desempenho e formas para angariar recursos"
+    abstract: "Nesta palestra serão apresentadas as soluções de hardware para computação de alto desempenho que a empresa fornece, com especial foco nas soluções da Dell Technologies, e também os serviços especializados em HPC que disponibiliza. Adicionalmente o apresentador irá falar sobre as tendências deste mercado e sobre as diferentes maneiras de angariar fundos para pesquisas."
     speaker:
-      name: "TBD"
-      bio: ""
-      photo: ""
+      name: "Paulo César Fonseca"
+      bio: "atua há mais de 10 anos no mercado de tecnologia da informação e especializou-se em computação de alto desempenho. Graduado em tecnologia da informação e análise e desenvolvimento de sistemas, Paulo atuou em empresas multinacionais e nacionais em áreas técnicas e comerciais. Na Versatus HPC há 7 anos, atua como gerente de contas para academia e centros de pesquisa."
+      photo: "Paulo_Fonseca.jpg"
   - id: PI2
     date: "10/05 (14:00 - 14:30) — Auditório do Prédio 32"
     name: "Palestra Industrial 2"
