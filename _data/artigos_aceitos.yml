@@ -381,9 +381,3 @@ pg-track:
             institution: "PUCRS/SETREM"
           - name: "Luiz Gustavo Fernandes"
             institution: "PUCRS"
-      - title: "DOCTRUST: Plataforma Autossoberana para Autenticação e Verificação de Documentos Digitais"
-        authors:
-          - name: "Janaina Fontana Biffi Duarte"
-            institution: "UDESC"
-          - name: "Maurício Aronne Pillon"
-            institution: "UDESC"
