@@ -77,14 +77,13 @@ schedule:
         start_time: "12:00"
         end_time: "14:00"
       - title: "Palestra Industrial: The next BIG thing in Exascale"
-        description: TBD
         link: "palestras.html#PI2"
         type: "lecture"
         start_time: "14:00"
         end_time: "14:30"
         room: "Auditório do Prédio 32"
         speakers:
-          - name: "Adhvan Furtado"
+          - name: "Leonardo Fialho"
             institution: "Eviden"
       - title: "Fórum IC: Algoritmos e Aplicações Paralelas"
         link: "artigos_aceitos.html#IC1"

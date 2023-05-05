@@ -32,9 +32,9 @@ keynotes:
     title: "Eviden: The next BIG thing in Exascale"
     abstract: "TBD"
     speaker:
-      name: "Adhvan Furtado"
-      bio: "é o diretor comercial da Eviden para América do Sul, responsável por implementar estratégias de vendas para as soluções de Big Data, Inteligência Artificial, HPC e Computação Avançada da Eviden. Possui doutorado em modelagem computacional e tecnologias industriais pelo SENAI CIMATEC e mestrado em arquitetura de computadores e computação de alto desempenho pela Universidad Autonoma de Barcelona. Implantou o centro de supercomputação do CIMATEC onde liderou diversos projetos de inovação para indústria brasileira."
-      photo: "AdhvanEviden.jpg"
+      name: "Leonardo Fialho"
+      bio: "é diretor de Delivery & Suporte da EVIDEN para a América do Sul, responsável pela entrega de todas as soluções de HPC e Computação Avançada da Eviden. Possui doutorado (2011) e mestrado (2008) pela Universidad Autònoma de Barcelona, realizou um post-doc na Dublin City University (Irlanda, 2012), foi pesquisador associado da Universidade do Texas em Austin trabalhando diretamente no Texas Advanced Computing Center por 3 anos (2012-2015) e desde 2016 é professor associado do programa de modelagem computacional do CIMATEC em Salvador, Bahia. Contribuiu extensivamente parta a implantação do centro de supercomputação do CIMATEC onde liderou diversos projetos de pesquisa e desenvolvimento. Também implantou em 2015 e lidera até hoje o centro de pesquisa e desenvolvimento da EVIDEN (Bull) no Brasil."
+      photo: "Leonardo_Fialho.png"
   - id: PI3
     date: "10/05 (16:30 - 17:30) — Auditório do Prédio 32"
     name: "Palestra Industrial 3"
