@@ -147,12 +147,14 @@ ic-track:
             institution: "PUCRS/SETREM"
       - title: "Avaliação do Paralelismo dos Kernels EP e CG em Sistemas Embarcados"
         authors:
-          - name: "Lucas Cunha"
+          - name: "Lucas Marchesan Cunha"
             institution: "PUCRS"
-          - name: "Renato Barreto Hoffmann Filho"
+          - name: "Renato B. Hoffmann"
             institution: "PUCRS"
           - name: "Dalvan Griebler"
             institution: "PUCRS/SETREM"
+          - name: "Isabel H. Manssour"
+            institution: "PUCRS"          
       - title: "Avaliação do paralelismo nos kernels NAS Parallel Benchmarks usando estruturas de dados da biblioteca C++"
         authors:
           - name: "Arthur Bianchessi"
