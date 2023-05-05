@@ -29,12 +29,12 @@ keynotes:
   - id: PI2
     date: "10/05 (14:00 - 14:30) — Auditório do Prédio 32"
     name: "Palestra Industrial 2"
-    title: "Eviden: TBD"
+    title: "Eviden: The next BIG thing in Exascale"
     abstract: "TBD"
     speaker:
-      name: "TBD"
-      bio: ""
-      photo: ""
+      name: "Adhvan Furtado"
+      bio: "é o diretor comercial da Eviden para América do Sul, responsável por implementar estratégias de vendas para as soluções de Big Data, Inteligência Artificial, HPC e Computação Avançada da Eviden. Possui doutorado em modelagem computacional e tecnologias industriais pelo SENAI CIMATEC e mestrado em arquitetura de computadores e computação de alto desempenho pela Universidad Autonoma de Barcelona. Implantou o centro de supercomputação do CIMATEC onde liderou diversos projetos de inovação para indústria brasileira."
+      photo: "AdhvanEviden.jpg"
   - id: PI3
     date: "10/05 (16:30 - 17:30) — Auditório do Prédio 32"
     name: "Palestra Industrial 3"
