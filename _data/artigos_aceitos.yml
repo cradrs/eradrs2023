@@ -6,7 +6,7 @@ ic-track:
     start_time: "14:30"
     end_time: "16:00"
     chair:
-      name: "TBD"
+      name: "Guilherme Galante"
     room: "Auditório 517"
     papers:
       - title: "Comparação entre as Diretivas parallel do e teams distribute de OpenMP em uma Aplicação de Meios Porosos"
@@ -66,7 +66,7 @@ ic-track:
     start_time: "14:30"
     end_time: "16:00"
     chair:
-      name: "TBD"
+      name: "Charles Christian Miers"
     room: "Auditório 517"
     papers:
       - title: "Cloud computing para deploy de modelos de deep learning para a classificação de Retinopatia Diabética"
@@ -134,8 +134,8 @@ ic-track:
     start_time: "14:30"
     end_time: "16:00"
     chair:
-      name: "TBD"
-    room: "Auditórios 516"
+      name: "Edson Luiz Padoin"
+    room: "Auditório 516"
     papers:
       - title: "Implementação e Avaliação de Desempenho da Linguagem Rust no NAS Embarassingly Parallel Benchmark"
         authors:
@@ -196,7 +196,7 @@ ic-track:
     start_time: "16:30"
     end_time: "17:30"
     chair:
-      name: "TBD"
+      name: "Gabriella Lopes Andrade"
     room: "Auditório 517"
     papers:
       - title: "Treinamento Paralelo de Redes Neurais usando o Modelo de Atores"
