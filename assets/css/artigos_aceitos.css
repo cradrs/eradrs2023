@@ -12,3 +12,7 @@ div.session-info,
 div.session-paper {
     margin-bottom: 1rem;
 }
+
+.paper-pdf-img {
+    margin-bottom: 0;
+}

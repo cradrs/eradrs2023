@@ -17,9 +17,23 @@ title: "Minicursos"
                 <p class="lead tutorial-date">
                     <b>Horário e local</b>: {{ tutorial.date }}
                 </p>
+                {% if tutorial.pdf %}
+                <div class="row g-1 align-items-center">
+                    <div class="col-auto">
+                        <p class="lead tutorial-pdf">
+                            <b>PDF</b>:
+                        </p>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.dropbox.com/sh/de7kvhvm4h44fr6/AAAP5xH52kCHkpRwtFgEdqfSa?preview={{ tutorial.pdf }}" target="_blank"><img class="img-pdf" src="img/pdf-file.png"/></a>
+                    </div>
+                </div>
+                {% endif %}
+                {% if tutorial.abstract %}
                 <p class="lead">
                     <b>Resumo</b>: {{ tutorial.abstract }}
                 </p>
+                {% endif %}
                 <div class="row">
                     <h4>Autores</h4>
                     {% for author in tutorial.authors %}

@@ -10,6 +10,7 @@
     p.lead.speaker-bio,
     p.lead.keynote-date,
     p.lead.tutorial-date,
+    p.lead.tutorial-pdf,
     li.lead,
     td.lead {
         font-size: 0.72rem;
@@ -38,6 +39,7 @@
     p.lead.speaker-bio,
     p.lead.keynote-date,
     p.lead.tutorial-date,
+    p.lead.tutorial-pdf,
     li.lead,
     td.lead {
         font-size: 1.125rem;

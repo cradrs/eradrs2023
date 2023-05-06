@@ -246,12 +246,14 @@ pg-track:
     room: "Auditório 516"
     papers:
       - title: "Desafios da modelagem do refinamento adaptativo das malhas: um estudo sobre o MARE2DEM"
+        pdf: "pg_s1_1.pdf"
         authors:
           - name: "Bruno Alves"
             institution: "UFRGS"
           - name: "Lucas Mello Schnorr"
             institution: "UFRGS"
       - title: "EnergyLB: combinando balanceamento de carga dinâmico com técnicas DVFS para reduzir o consumo de energia"
+        pdf: "pg_s1_2.pdf"
         authors:
           - name: "Cristiano Alex Künas"
             institution: "UFRGS"
@@ -262,24 +264,28 @@ pg-track:
           - name: "Philippe Olivier Alexandre Navaux"
             institution: "UFRGS"
       - title: "Avaliando Paralelismo em Dispositivos com Recursos Limitados"
+        pdf: "pg_s1_3.pdf"
         authors:
           - name: "Renato Barreto Hoffmann Filho"
             institution: "PUCRS"
           - name: "Dalvan Griebler"
             institution: "PUCRS/SETREM"
       - title: "Uma proposta para sistemas de arquivos criptográficos em Kernel-Space"
+        pdf: "pg_s1_4.pdf"
         authors:
           - name: "Jorge Correia"
             institution: "UFPR"
           - name: "Wagner Zola"
             institution: "UFPR"
       - title: "Geração de Timetabling considerando avaliação do ENADE"
+        pdf: "pg_s1_5.pdf"
         authors:
           - name: "Matheus Fabian"
             institution: "UPF"
           - name: "Marcelo Rebonatto"
             institution: "UPF"
       - title: "Enabling Dynamic Rescheduling in Kubernetes Environments with Kubernetes Scheduling Extension (KSE)"
+        pdf: "pg_s1_6.pdf"
         authors:
           - name: "Pedro Moritz de Carvalho Neto"
             institution: "UFSC"
@@ -298,6 +304,7 @@ pg-track:
     room: "Auditório 516"
     papers:
       - title: "Utilização de aprendizado por reforço para adaptar a quantidade de recursos e acelerar aplicações"
+        pdf: "pg_s2_1.pdf"
         authors:
           - name: "Lucas Nesi"
             institution: "UFRGS"
@@ -306,12 +313,14 @@ pg-track:
           - name: "Arnaud Legrand"
             institution: "CNRS - France"
       - title: "Otimização do Mapeamento de Threads e Dados em Aplicações com Memória Transacional  usando Aprendizado de Máquina"
+        pdf: "pg_s2_2.pdf"
         authors:
           - name: "Tiago Perlin"
             institution: "UFPEL"
           - name: "Andre Rauber Du Bois"
             institution: "UFPEL"
       - title: "Uma proposta para Federated Learning em Cibersegurança"
+        pdf: "pg_s2_3.pdf"
         authors:
           - name: "Bruno Meyer"
             institution: "UFPR"
@@ -322,6 +331,7 @@ pg-track:
           - name: "Wagner Zola"
             institution: "UFPR"
       - title: "Avaliação de Diretivas Paralelas em uma Aplicação de Simulação de Secagem de Grãos"
+        pdf: "pg_s2_4.pdf"
         authors:
           - name: "Natiele Lucca"
             institution: "UNIPAMPA"
@@ -332,6 +342,7 @@ pg-track:
           - name: "Anna Victória Gonçalves Marciano"
             institution: "UNIPAMPA"
       - title: "Executando na Nuvem um Detector de Padrões de Acesso de E/S"
+        pdf: "pg_s2_5.pdf"
         authors:
           - name: "Cristiano Alex Künas"
             institution: "UFRGS"
@@ -344,6 +355,7 @@ pg-track:
           - name: "Philippe Olivier Alexandre Navaux"
             institution: "UFRGS"
       - title: "Utilização de Machine Learning para Irrigação de Precisão"
+        pdf: "pg_s2_6.pdf"
         authors:
           - name: "Rogerio P dos Santos"
             institution: "Universidade Lusofona - Portugal"
@@ -362,18 +374,21 @@ pg-track:
     room: "Auditório 516"
     papers:
       - title: "Uma proposta de análise comparativa de desempenho de implementações Barnes-Hut em clusters de computadores"
+        pdf: "pg_s3_1.pdf"
         authors:
           - name: "Rodrigo Morante Blanco"
             institution: "UFPR"
           - name: "Wagner Zola"
             institution: "UFPR"
       - title: "Avaliação da Auto-Adaptação de Micro-Lote para aplicação de Processamento de Streaming em GPUs"
+        pdf: "pg_s3_2.pdf"
         authors:
           - name: "Ricardo Leonarczyk"
             institution: "SETREM"
           - name: "Dalvan Griebler"
             institution: "PUCRS/SETREM"
       - title: "Provendo melhorias na geração de código para GPUs na SPar"
+        pdf: "pg_s3_3.pdf"
         authors:
           - name: "Gabriell Araujo"
             institution: "PUCRS"

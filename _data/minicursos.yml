@@ -3,6 +3,7 @@ tutorials:
     date: "10/05 (09:00 - 11:30) — Laboratório 401"
     name: "Minicurso 1"
     title: "DevOps para HPC: Como configurar um cluster para uso compartilhado"
+    pdf: "cap-3.pdf"
     abstract: "O compartilhamento de recursos para a execução de aplicações de alto desempenho é uma tarefa considerável. Requisitos como controle de usuários, compartilhamento de dados, assim como a reserva e isolamento de recursos são cruciais no sistema. Neste minicurso, apresentaremos um conjunto de softwares que pode ser utilizado para resolver tais desafios, sempre demonstrado as configurações possíveis para adequar o sistema a ser compartilhado para os requisitos dos usuários. A pilha de software é inspirada na utilizada no PCAD (Parque Computacional de Alto Desempenho) do Grupo de Processamento Paralelo e Distribuído da Universidade Federal do Rio Grande do Sul."
     authors:
       - name: "Lucas Leandro Nesi"
@@ -15,6 +16,7 @@ tutorials:
     date: "10/05 (09:00 - 11:30) — Laboratório 418"
     name: "Minicurso 2"
     title: "Uso de diretivas de OpenMP (básico)"
+    pdf: "cap-1.pdf"
     abstract: "OpenMP é uma interface de programação paralela usada para a geração implícita de threads em CPUs e GPUs, o que possibilita uma computação heterogênea. O padrão é baseado em diretivas de compilação, isto é, linhas de comando são inseridas em um código-fonte e tratadas em tempo de pré-compilação. O paralelismo é gerado pelas diretivas, as quais podem delimitar a região concorrente de código. Apesar da simplicidade de injeção de paralelismo em um determinado programa, a grande maioria dos usuários da interface limita-se a utilizar recursos elementares, como o paralelismo de laços em ambientes multiprocessados em detrimento de outras formas de invocação de operações concorrentes não tão difundidas. Neste contexto, este minicurso tem como objetivo apresentar como diferentes tipos de diretivas de OpenMP podem ser chamadas em uma aplicação e avaliar o desempenho paralelo que cada uma produz. Este estudo de caso busca mensurar especialmente a performance dos recursos disponíveis pelas versões mais recentes do padrão OpenMP."
     authors:
       - name: "Claudio Schepke"
@@ -28,6 +30,7 @@ tutorials:
     date: "11/05 (09:00 - 11:30) — Auditório 517"
     name: "Minicurso 3"
     title: "Explorando Técnicas de Compressão para Melhorar a Eficiência de Tratamento de Dados IoT"
+    pdf: "cap-5.pdf"
     abstract: "A área de Internet das Coisas, ou IoT, vem crescendo continuamente e oferecendo inúmeras oportunidades em diversas áreas. Esses dispositivos interconectados detectam, monitoram e coletam diversos tipos de dados do ambiente físicos, de modo que aplicações de IoT vem sendo amplamente utilizadas em sistemas de transporte, indústria, educação, casas inteligentes, agricultura e saúde, por exemplo. Nesse contexto, aplicações de monitoramento remoto normalmente requerem a gravação, processamento e transmissão de grandes volumes de dados. Essa necessidade, contudo, se depara com as limitações intrínsecas destes dispositivos, os quais se caracterizam por restrição de consumo de bateria, capacidades limitadas de processamento e largura de banda. Para lidar com esses desafios, as técnicas de compactação podem ser usadas para diminuir o volume de dados antes de transmiti-los para outras camadas da infraestrutura, de modo que essa redução também resulta em menor consumo de energia que seria demandada na transmissão dos dados. O objetivo desse curso é explorar as possibilidades de compactação de dados entre variados tipos de algoritmos e suas características, bem como quais devem ser os critérios para escolha do mais adequado considerando os tipos de dados que se deseja processar, conforme sua finalidade e grau de criticidade."
     authors:
       - name: "Rodrigo da Rosa Righi"
@@ -40,6 +43,7 @@ tutorials:
     date: "11/05 (09:00 - 11:30) — Auditório 516"
     name: "Minicurso 4"
     title: "Projeto de Aplicações Paralelas (básico)"
+    pdf: "cap-2.pdf"
     abstract: "Apresenta-se neste minicurso os conceitos de projeto e desenvolvimento de programas paralelos. O enfoque principal será dado para o projeto metodológico chamado PCAM, proposto por Foster, e definido por quatro fases de criação de um programa paralelo: Particionamento, Comunicação, Aglomeração e Mapeamento. Também serão abordados padrões de projeto que podem ser aliados à metodologia PCAM e uma visão geral dos principais modelos de programas paralelos."
     authors:
       - name: "Guilherme Galante"
@@ -49,6 +53,7 @@ tutorials:
     date: "12/05 (09:00 - 11:30) — Auditório 517"
     name: "Minicurso 5"
     title: "Aprendizado de máquina e computação de alto desempenho"
+    pdf: "cap-4.pdf"
     abstract: "A Inteligência Artificial é um campo que vem evoluindo radicalmente nos últimos anos. Ela tem se mostrado uma ferramenta com alto poder de capilaridade, sendo incorporada nas mais diversas áreas econômicas e sociais. Sua aplicação em áreas como automação, robótica, classificação de dados, reconhecimento de imagens e em sistemas especialistas já é bastante sólida, mas tem chamado a atenção sua aplicação em áreas relacionadas à subjetividade humana, como a criação de ilustrações, de textos e música. A principal metodologia para a criação de agentes inteligentes é baseada no aprendizado máquina, que consiste em apresentar uma série de exemplos a um sistema computacional. Esses exemplos frequentemente compreendem grandes volumes de dados, e o processo de aprendizagem é um método iterativo de otimização que precisa ser repetido muitas vezes sobre esse conjunto de dados. Essas características fazem com que o desenvolvimento de modelos de inteligência artificial dependam de computação de alto desempenho. Modelos de inteligência artificial mais complexos, baseados em redes neurais artificiais com muitas camadas ocultas, empregam modelos de aprendizagem profunda (deep learning). A aprendizagem profunda é um problema de otimização de alta ordem, que exige uma capacidade de processamento ainda maior. Muitos modelos de inteligência artificial são baseados em redes neurais artificiais, que são modelos matemáticos/computacionais inspirados em neurônios biológicos. Assim como sua fonte de inspiração, sua arquitetura é massivamente paralela, o que torna possível a aplicação de diversas técnicas de computação paralela para acelerar o processo de aprendizagem. Neste minicurso serão abordados os fundamentos do aprendizado de máquina, suas implicações quanto à computação de alto desempenho, e as principais técnicas empregadas nesse contexto. Serão explorados modelos computacionais, frameworks mais utilizados, e diversos trabalhos científicos do estado da arte."
     authors:
       - name: "Manuel Osório Binelo"
@@ -61,7 +66,6 @@ tutorials:
     date: "12/05 (09:00 - 11:30) — Auditório 516"
     name: "Minicurso 6"
     title: "Tecnologias de Storage"
-    abstract: "TBD"
     authors:
       - name: "Guilherme Friol (SDC)"
         bio: "Especialista em computação com anos de experiência em ambientes computacionais de alta demanda, virtualização e HPC. Atua como consultor em arquitetura e otimização de sistemas de alto desempenho. Desenvolveu projetos relevantes junto a grandes instituições de pesquisa e notórios nomes da computação nacional em machine learning e redes neurais."
