@@ -38,12 +38,12 @@ keynotes:
   - id: PI3
     date: "10/05 (16:30 - 17:30) — Auditório do Prédio 32"
     name: "Palestra Industrial 3"
-    title: "Scherm: TBD"
-    abstract: "TBD"
+    title: "Scherm: 30 anos de Supermicro Brasil e a evolução da Computação"
+    abstract: "Com algumas pitadas da história dos últimos 30 anos da ciência da computação no Brasil, falaremos da história da Empresa Supermicro, um importante player mundial e assídua participante desta história. Além disso, falaremos das mais novas tecnologias e lançamentos no cenário de transformações atual."
     speaker:
-      name: "TBD"
-      bio: ""
-      photo: ""
+      name: "Ilson Schames"
+      bio: "é formado em Ciências da Computação na primeira turma da PUC-SP em (1986-1990). Realizou cursos de HPC no technion em Israel (1992) e possui MBA em Marketing pelo IBMEC (2000-2002). Foi analista de sistemas no Hospital de Afula em Israel (1992), analista de sistemas no Incor em SP (1994-1996), realizou diversos projetos em Universidades no Brasil e em empresas como TV Globo, Polícia Federal, Siemens, INPE, ITA, entre outros."
+      photo: "ilson.jpg"
   - id: PI4
     date: "11/05 (11:30 - 12:00) — Auditório do Prédio 32"
     name: "Palestra Industrial 4"
