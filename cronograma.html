@@ -110,6 +110,7 @@ title: "Cronograma"
                                 </h5>
                             </div>
                             <div class="event-section">
+                                {% if event.chairs %}
                                 <span class="event-chairs-intro">Chair:</span>
                                 {% for chair in event.chairs %}
                                 <span class="event-chair">
@@ -121,15 +122,18 @@ title: "Cronograma"
                                 </span>
                                 {% endif %}
                                 {% endfor %}
+                                {% endif %}
                             </div>
                             <div class="event-section">
                                 {% for paper in event.papers %}
                                 <p class="event-paper">
                                     {{ paper.title }}
                                 </p>
+                                {% if paper.authors %}
                                 <p class="event-paper-authors">
                                     {{ paper.authors }}
                                 </p>
+                                {% endif %}
                                 {% endfor %}
                             </div>
                         </div>
