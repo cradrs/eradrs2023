@@ -395,7 +395,7 @@ pg-track:
     start_time: "16:30"
     end_time: "17:30"
     chair:
-      name: "TBD"
+      name: "César A. F. De Rose (PUCRS)"
     room: "Auditório 516"
     papers:
       - title: "Uma proposta de análise comparativa de desempenho de implementações Barnes-Hut em clusters de computadores"

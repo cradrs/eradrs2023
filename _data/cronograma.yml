@@ -509,7 +509,7 @@ schedule:
         end_time: "17:30"
         room: "Auditório 516"
         chairs:
-          - name: "TBD"
+          - name: "César A. F. De Rose (PUCRS)"
         papers:
           - title: "Uma proposta de análise comparativa de desempenho de implementações Barnes-Hut em clusters de computadores"
             authors: "Rodrigo Morante Blanco (UFPR) e Wagner Zola (UFPR)"
