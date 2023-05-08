@@ -80,12 +80,10 @@ title: "Cronograma"
                             <div class="event-section">
                                 <span class="event-speakers-intro">Apresentação:</span>
                                 {% for speaker in event.speakers %}
-                                <span class="event-speaker">
-                                    {{ speaker.name }}
-                                </span>
+                                <span class="event-speaker">{{ speaker.name }}</span>
                                 {% if speaker.institution %}
                                 <span class="event-speaker-institution">
-                                    ({{ speaker.institution }}){% if forloop.last %}{% else %};{% endif %}
+                                    ({{ speaker.institution }}){% if forloop.rindex == 2 %} e {% elsif forloop.rindex == 1 %}{% else %}, {% endif %}
                                 </span>
                                 {% endif %}
                                 {% endfor %}
@@ -110,18 +108,14 @@ title: "Cronograma"
                                 </h5>
                             </div>
                             <div class="event-section">
-                                {% if event.chairs %}
+                                {% if event.chair %}
                                 <span class="event-chairs-intro">Chair:</span>
-                                {% for chair in event.chairs %}
                                 <span class="event-chair">
-                                    {{ chair.name }}
+                                    {{ event.chair.name }}
                                 </span>
-                                {% if chair.institution %}
                                 <span class="event-chair-institution">
-                                    ({{ chair.institution }}){% if forloop.last %}{% else %};{% endif %}
+                                    ({{ event.chair.institution }})
                                 </span>
-                                {% endif %}
-                                {% endfor %}
                                 {% endif %}
                             </div>
                             <div class="event-section">

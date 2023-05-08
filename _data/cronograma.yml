@@ -10,6 +10,7 @@ schedule:
         end_time: "9:00"
         room: "Saguão do Prédio 32"
       - title: "MC1 (parte 1): DevOps para HPC: Como configurar um cluster para uso compartilhado"
+        description: "O compartilhamento de recursos para a execução de aplicações de alto desempenho é uma tarefa considerável. Requisitos como controle de usuários, compartilhamento de dados, assim como a reserva e isolamento de recursos são cruciais no sistema. Neste minicurso, apresentaremos um conjunto de softwares que pode ser utilizado para resolver tais desafios, sempre demonstrado as configurações possíveis para adequar o sistema a ser compartilhado para os requisitos dos usuários. A pilha de software é inspirada na utilizada no PCAD (Parque Computacional de Alto Desempenho) do Grupo de Processamento Paralelo e Distribuído da Universidade Federal do Rio Grande do Sul."
         link: "minicursos.html#MC1"
         type: "workshop"
         start_time: "9:00"
@@ -21,6 +22,7 @@ schedule:
           - name: "Lucas Mello Schnorr"
             institution: "UFRGS"
       - title: "MC2 (parte 1): Uso de diretivas de OpenMP (básico)"
+        description: "OpenMP é uma interface de programação paralela usada para a geração implícita de threads em CPUs e GPUs, o que possibilita uma computação heterogênea. O padrão é baseado em diretivas de compilação, isto é, linhas de comando são inseridas em um código-fonte e tratadas em tempo de pré-compilação. O paralelismo é gerado pelas diretivas, as quais podem delimitar a região concorrente de código. Apesar da simplicidade de injeção de paralelismo em um determinado programa, a grande maioria dos usuários da interface limita-se a utilizar recursos elementares, como o paralelismo de laços em ambientes multiprocessados em detrimento de outras formas de invocação de operações concorrentes não tão difundidas. Neste contexto, este minicurso tem como objetivo apresentar como diferentes tipos de diretivas de OpenMP podem ser chamadas em uma aplicação e avaliar o desempenho paralelo que cada uma produz. Este estudo de caso busca mensurar especialmente a performance dos recursos disponíveis pelas versões mais recentes do padrão OpenMP."
         link: "minicursos.html#MC2"
         type: "workshop"
         start_time: "9:00"
@@ -45,6 +47,7 @@ schedule:
         end_time: "11:30"
         room: "Sala 111"
       - title: "MC1 (parte 2): DevOps para HPC: Como configurar um cluster para uso compartilhado"
+        description: "O compartilhamento de recursos para a execução de aplicações de alto desempenho é uma tarefa considerável. Requisitos como controle de usuários, compartilhamento de dados, assim como a reserva e isolamento de recursos são cruciais no sistema. Neste minicurso, apresentaremos um conjunto de softwares que pode ser utilizado para resolver tais desafios, sempre demonstrado as configurações possíveis para adequar o sistema a ser compartilhado para os requisitos dos usuários. A pilha de software é inspirada na utilizada no PCAD (Parque Computacional de Alto Desempenho) do Grupo de Processamento Paralelo e Distribuído da Universidade Federal do Rio Grande do Sul."
         link: "minicursos.html#MC1"
         type: "workshop"
         start_time: "10:30"
@@ -56,6 +59,7 @@ schedule:
           - name: "Lucas Mello Schnorr"
             institution: "UFRGS"
       - title: "MC2 (parte 2): Uso de diretivas de OpenMP (básico)"
+        description: "OpenMP é uma interface de programação paralela usada para a geração implícita de threads em CPUs e GPUs, o que possibilita uma computação heterogênea. O padrão é baseado em diretivas de compilação, isto é, linhas de comando são inseridas em um código-fonte e tratadas em tempo de pré-compilação. O paralelismo é gerado pelas diretivas, as quais podem delimitar a região concorrente de código. Apesar da simplicidade de injeção de paralelismo em um determinado programa, a grande maioria dos usuários da interface limita-se a utilizar recursos elementares, como o paralelismo de laços em ambientes multiprocessados em detrimento de outras formas de invocação de operações concorrentes não tão difundidas. Neste contexto, este minicurso tem como objetivo apresentar como diferentes tipos de diretivas de OpenMP podem ser chamadas em uma aplicação e avaliar o desempenho paralelo que cada uma produz. Este estudo de caso busca mensurar especialmente a performance dos recursos disponíveis pelas versões mais recentes do padrão OpenMP."
         link: "minicursos.html#MC2"
         type: "workshop"
         start_time: "10:30"
@@ -104,8 +108,9 @@ schedule:
         start_time: "14:30"
         end_time: "16:00"
         room: "Auditório 517"
-        chairs:
-          - name: "Guilherme Galante (UNIOESTE)"
+        chair:
+          name: "Guilherme Galante"
+          institution: "UNIOESTE"
         papers:
           - title: "Comparação entre as Diretivas parallel do e teams distribute de OpenMP em uma Aplicação de Meios Porosos"
             authors: "Gabriel Dineck Tremarin (UNIPAMPA) e Claudio Schepke (UNIPAMPA)"
@@ -127,8 +132,9 @@ schedule:
         start_time: "14:30"
         end_time: "16:00"
         room: "Auditório 516"
-        chairs:
-          - name: "Andriele Busatto do Carmo (UNISINOS)"
+        chair:
+          name: "Andriele Busatto do Carmo"
+          institution: "UNISINOS"
         papers:
           - title: "Desafios da modelagem do refinamento adaptativo das malhas: um estudo sobre o MARE2DEM"
             authors: "Bruno Alves (UFRGS) e Lucas Mello Schnorr (UFRGS)"
@@ -188,6 +194,7 @@ schedule:
         end_time: "9:00"
         room: "Saguão do Prédio 32"
       - title: "MC3 (parte 1): Explorando Técnicas de Compressão para Melhorar a Eficiência de Tratamento de Dados IoT"
+        description: "A área de Internet das Coisas, ou IoT, vem crescendo continuamente e oferecendo inúmeras oportunidades em diversas áreas. Esses dispositivos interconectados detectam, monitoram e coletam diversos tipos de dados do ambiente físicos, de modo que aplicações de IoT vem sendo amplamente utilizadas em sistemas de transporte, indústria, educação, casas inteligentes, agricultura e saúde, por exemplo. Nesse contexto, aplicações de monitoramento remoto normalmente requerem a gravação, processamento e transmissão de grandes volumes de dados. Essa necessidade, contudo, se depara com as limitações intrínsecas destes dispositivos, os quais se caracterizam por restrição de consumo de bateria, capacidades limitadas de processamento e largura de banda. Para lidar com esses desafios, as técnicas de compactação podem ser usadas para diminuir o volume de dados antes de transmiti-los para outras camadas da infraestrutura, de modo que essa redução também resulta em menor consumo de energia que seria demandada na transmissão dos dados. O objetivo desse curso é explorar as possibilidades de compactação de dados entre variados tipos de algoritmos e suas características, bem como quais devem ser os critérios para escolha do mais adequado considerando os tipos de dados que se deseja processar, conforme sua finalidade e grau de criticidade."
         link: "minicursos.html#MC3"
         type: "workshop"
         start_time: "9:00"
@@ -199,6 +206,7 @@ schedule:
           - name: "Alexandre Andrade"
             institution: "UNISINOS"
       - title: "MC4 (parte 1): Projeto de Aplicações Paralelas (básico)"
+        description: "Apresenta-se neste minicurso os conceitos de projeto e desenvolvimento de programas paralelos. O enfoque principal será dado para o projeto metodológico chamado PCAM, proposto por Foster, e definido por quatro fases de criação de um programa paralelo: Particionamento, Comunicação, Aglomeração e Mapeamento. Também serão abordados padrões de projeto que podem ser aliados à metodologia PCAM e uma visão geral dos principais modelos de programas paralelos."
         link: "minicursos.html#MC4"
         type: "workshop"
         start_time: "9:00"
@@ -219,6 +227,7 @@ schedule:
         end_time: "10:30"
         room: "Saguão do Prédio 32"
       - title: "MC3 (parte 2): Explorando Técnicas de Compressão para Melhorar a Eficiência de Tratamento de Dados IoT"
+        description: "A área de Internet das Coisas, ou IoT, vem crescendo continuamente e oferecendo inúmeras oportunidades em diversas áreas. Esses dispositivos interconectados detectam, monitoram e coletam diversos tipos de dados do ambiente físicos, de modo que aplicações de IoT vem sendo amplamente utilizadas em sistemas de transporte, indústria, educação, casas inteligentes, agricultura e saúde, por exemplo. Nesse contexto, aplicações de monitoramento remoto normalmente requerem a gravação, processamento e transmissão de grandes volumes de dados. Essa necessidade, contudo, se depara com as limitações intrínsecas destes dispositivos, os quais se caracterizam por restrição de consumo de bateria, capacidades limitadas de processamento e largura de banda. Para lidar com esses desafios, as técnicas de compactação podem ser usadas para diminuir o volume de dados antes de transmiti-los para outras camadas da infraestrutura, de modo que essa redução também resulta em menor consumo de energia que seria demandada na transmissão dos dados. O objetivo desse curso é explorar as possibilidades de compactação de dados entre variados tipos de algoritmos e suas características, bem como quais devem ser os critérios para escolha do mais adequado considerando os tipos de dados que se deseja processar, conforme sua finalidade e grau de criticidade."
         link: "minicursos.html#MC3"
         type: "workshop"
         start_time: "10:30"
@@ -230,6 +239,7 @@ schedule:
           - name: "Alexandre Andrade"
             institution: "UNISINOS"
       - title: "MC4 (parte 2): Projeto de Aplicações Paralelas (básico)"
+        description: "Apresenta-se neste minicurso os conceitos de projeto e desenvolvimento de programas paralelos. O enfoque principal será dado para o projeto metodológico chamado PCAM, proposto por Foster, e definido por quatro fases de criação de um programa paralelo: Particionamento, Comunicação, Aglomeração e Mapeamento. Também serão abordados padrões de projeto que podem ser aliados à metodologia PCAM e uma visão geral dos principais modelos de programas paralelos."
         link: "minicursos.html#MC4"
         type: "workshop"
         start_time: "10:30"
@@ -268,8 +278,9 @@ schedule:
         start_time: "14:30"
         end_time: "16:00"
         room: "Auditório 517"
-        chairs:
-          - name: "Charles Christian Miers (UDESC)"
+        chair:
+          name: "Charles Christian Miers"
+          institution: "UDESC"
         papers:
           - title: "Cloud computing para deploy de modelos de deep learning para a classificação de Retinopatia Diabética"
             authors: "Matheus Camargo (UFRGS), Cristiano Alex Künas (UFRGS) e Philippe Olivier Alexandre Navaux (UFRGS)"
@@ -289,8 +300,9 @@ schedule:
         start_time: "14:30"
         end_time: "16:00"
         room: "Auditório 516"
-        chairs:
-          - name: "Guilherme Koslovski (UDESC)"
+        chair:
+          name: "Guilherme Koslovski"
+          institution: "UDESC"
         papers:
           - title: "Utilização de aprendizado por reforço para adaptar a quantidade de recursos e acelerar aplicações"
             authors: "Lucas Nesi (UFRGS), Lucas Mello Schnorr (UFRGS) e Arnaud Legrand (CNRS - France)"
@@ -367,6 +379,7 @@ schedule:
         end_time: "9:00"
         room: "Saguão do Prédio 32"
       - title: "MC5 (parte 1): Aprendizado de máquina e computação de alto desempenho"
+        description: "A Inteligência Artificial é um campo que vem evoluindo radicalmente nos últimos anos. Ela tem se mostrado uma ferramenta com alto poder de capilaridade, sendo incorporada nas mais diversas áreas econômicas e sociais. Sua aplicação em áreas como automação, robótica, classificação de dados, reconhecimento de imagens e em sistemas especialistas já é bastante sólida, mas tem chamado a atenção sua aplicação em áreas relacionadas à subjetividade humana, como a criação de ilustrações, de textos e música. A principal metodologia para a criação de agentes inteligentes é baseada no aprendizado máquina, que consiste em apresentar uma série de exemplos a um sistema computacional. Esses exemplos frequentemente compreendem grandes volumes de dados, e o processo de aprendizagem é um método iterativo de otimização que precisa ser repetido muitas vezes sobre esse conjunto de dados. Essas características fazem com que o desenvolvimento de modelos de inteligência artificial dependam de computação de alto desempenho. Modelos de inteligência artificial mais complexos, baseados em redes neurais artificiais com muitas camadas ocultas, empregam modelos de aprendizagem profunda (deep learning). A aprendizagem profunda é um problema de otimização de alta ordem, que exige uma capacidade de processamento ainda maior. Muitos modelos de inteligência artificial são baseados em redes neurais artificiais, que são modelos matemáticos/computacionais inspirados em neurônios biológicos. Assim como sua fonte de inspiração, sua arquitetura é massivamente paralela, o que torna possível a aplicação de diversas técnicas de computação paralela para acelerar o processo de aprendizagem. Neste minicurso serão abordados os fundamentos do aprendizado de máquina, suas implicações quanto à computação de alto desempenho, e as principais técnicas empregadas nesse contexto. Serão explorados modelos computacionais, frameworks mais utilizados, e diversos trabalhos científicos do estado da arte."
         link: "minicursos.html#MC5"
         type: "workshop"
         start_time: "9:00"
@@ -378,6 +391,7 @@ schedule:
           - name: "Edson Luiz Padoin"
             institution: "UNIJUI"
       - title: "MC6 (parte 1): Tecnologias de Storage"
+        description: "O minicurso de armazenamento abordará as principais formas de conexões existentes, tais como SATA, SCSI, SAS, iSCSI, Fibre Channel, entre outras. Nele, os participantes poderão compreender as vantagens e desvantagens de cada uma dessas opções, bem como entender a importância da escolha correta na hora de definir a solução de armazenamento adequada para cada situação. Serão discutidos os diversos tipos de dispositivos de armazenamento existentes no mercado, tais como unidades de disco rígido (HDD), unidades de estado sólido (SSD), unidades de fita (tape drive), cartões de memória, entre outros. Os participantes poderão entender as características de cada um desses dispositivos, bem como saber qual a melhor opção. O treinamento disponibilizado será interativo, com vários equipamentos para serem vistos durante o minicurso."
         link: "minicursos.html#MC6"
         type: "workshop"
         start_time: "9:00"
@@ -392,6 +406,7 @@ schedule:
         end_time: "10:30"
         room: "Saguão do Prédio 32"
       - title: "MC5 (parte 2): Aprendizado de máquina e computação de alto desempenho"
+        description: "A Inteligência Artificial é um campo que vem evoluindo radicalmente nos últimos anos. Ela tem se mostrado uma ferramenta com alto poder de capilaridade, sendo incorporada nas mais diversas áreas econômicas e sociais. Sua aplicação em áreas como automação, robótica, classificação de dados, reconhecimento de imagens e em sistemas especialistas já é bastante sólida, mas tem chamado a atenção sua aplicação em áreas relacionadas à subjetividade humana, como a criação de ilustrações, de textos e música. A principal metodologia para a criação de agentes inteligentes é baseada no aprendizado máquina, que consiste em apresentar uma série de exemplos a um sistema computacional. Esses exemplos frequentemente compreendem grandes volumes de dados, e o processo de aprendizagem é um método iterativo de otimização que precisa ser repetido muitas vezes sobre esse conjunto de dados. Essas características fazem com que o desenvolvimento de modelos de inteligência artificial dependam de computação de alto desempenho. Modelos de inteligência artificial mais complexos, baseados em redes neurais artificiais com muitas camadas ocultas, empregam modelos de aprendizagem profunda (deep learning). A aprendizagem profunda é um problema de otimização de alta ordem, que exige uma capacidade de processamento ainda maior. Muitos modelos de inteligência artificial são baseados em redes neurais artificiais, que são modelos matemáticos/computacionais inspirados em neurônios biológicos. Assim como sua fonte de inspiração, sua arquitetura é massivamente paralela, o que torna possível a aplicação de diversas técnicas de computação paralela para acelerar o processo de aprendizagem. Neste minicurso serão abordados os fundamentos do aprendizado de máquina, suas implicações quanto à computação de alto desempenho, e as principais técnicas empregadas nesse contexto. Serão explorados modelos computacionais, frameworks mais utilizados, e diversos trabalhos científicos do estado da arte."
         link: "minicursos.html#MC5"
         type: "workshop"
         start_time: "10:30"
@@ -403,6 +418,7 @@ schedule:
           - name: "Edson Luiz Padoin"
             institution: "UNIJUI"
       - title: "MC6 (parte 2): Tecnologias de Storage"
+        description: "O minicurso de armazenamento abordará as principais formas de conexões existentes, tais como SATA, SCSI, SAS, iSCSI, Fibre Channel, entre outras. Nele, os participantes poderão compreender as vantagens e desvantagens de cada uma dessas opções, bem como entender a importância da escolha correta na hora de definir a solução de armazenamento adequada para cada situação. Serão discutidos os diversos tipos de dispositivos de armazenamento existentes no mercado, tais como unidades de disco rígido (HDD), unidades de estado sólido (SSD), unidades de fita (tape drive), cartões de memória, entre outros. Os participantes poderão entender as características de cada um desses dispositivos, bem como saber qual a melhor opção. O treinamento disponibilizado será interativo, com vários equipamentos para serem vistos durante o minicurso."
         link: "minicursos.html#MC6"
         type: "workshop"
         start_time: "10:30"
@@ -446,8 +462,9 @@ schedule:
         start_time: "14:30"
         end_time: "16:00"
         room: "Auditório 516"
-        chairs:
-          - name: "Edson Luiz Padoin (UNIJUI)"
+        chair:
+          name: "Edson Luiz Padoin"
+          institution: "UNIJUI"
         papers:
           - title: "Implementação e Avaliação de Desempenho da Linguagem Rust no NAS Embarassingly Parallel Benchmark"
             authors: "Bernardo Zomer (PUCRS), Renato Barreto Hoffmann Filho (PUCRS) e Dalvan Griebler (PUCRS/SETREM)"
@@ -489,8 +506,9 @@ schedule:
         start_time: "16:30"
         end_time: "17:30"
         room: "Auditório 517"
-        chairs:
-          - name: "Gabriella Lopes Andrade (PUCRS)"
+        chair:
+          name: "Gabriella Lopes Andrade"
+          institution: "PUCRS"
         papers:
           - title: "Treinamento Paralelo de Redes Neurais usando o Modelo de Atores"
             authors: "Ariam Moresco Bartsch (UFPEL) e André Du Bois (UFPEL)"
@@ -508,8 +526,9 @@ schedule:
         start_time: "16:30"
         end_time: "17:30"
         room: "Auditório 516"
-        chairs:
-          - name: "César A. F. De Rose (PUCRS)"
+        chair:
+          name: "César A. F. De Rose"
+          institution: "PUCRS"
         papers:
           - title: "Uma proposta de análise comparativa de desempenho de implementações Barnes-Hut em clusters de computadores"
             authors: "Rodrigo Morante Blanco (UFPR) e Wagner Zola (UFPR)"
