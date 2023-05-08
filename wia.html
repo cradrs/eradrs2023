@@ -23,6 +23,9 @@ title: "Workshop de Inteligência Artificial"
         {% for tutorial in site.data.wia.tutorials %}
         <div id="{{ tutorial.id }}" class="tutorial">
             <h3>{{ tutorial.title }}</h3>
+            <p class="lead tutorial-date">
+                <b>Horário e local</b>: {{ tutorial.date }}
+            </p>
             <p class="lead">
                 <b>Resumo</b>: {{ tutorial.abstract }}
             </p>
@@ -48,6 +51,9 @@ title: "Workshop de Inteligência Artificial"
         {% for p in site.data.wia.painel %}
         <div id="{{ p.id }}" class="tutorial">
             <h3>{{ p.title }}</h3>
+            <p class="lead tutorial-date">
+                <b>Horário e local</b>: {{ p.date }}
+            </p>
             <p class="lead">
                 <b>Resumo</b>: {{ p.abstract }}
             </p>

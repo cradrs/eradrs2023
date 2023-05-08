@@ -1,6 +1,6 @@
 tutorials:
   - id: "WIA1"
-    date: "Horário: TBD"
+    date: "11/05 (14:30 - 16:00) — Laboratório 409"
     title: "Tutorial de Redes Neurais, do zero até redes convolucionais"
     abstract: "Nesse tutorial você vai conhecer a base do funcionamento das redes neurais profundas que vem revolucionando a área de aprendizado de máquina. Você vai aprender sobre o funcionamento de um único Perceptron, do Perceptron Multicamadas e Redes Neurais Convolucionais com aplicações em visão computacional. Você vai aprender a colocar esses conceitos em prática usando pytorch. Para acompanhar esse tutorial é necessário ter conhecimentos básicos de programação em python, álgebra linear e cálculo."
     authors:
@@ -13,7 +13,7 @@ tutorials:
 
 painel:
   - id: "WIAP1"
-    date: "Horário: TBD"
+    date: "12/05 (17:30 - 18:30) — Auditório do Prédio 32"
     title: "Painel sobre Processamento de Linguagem Natural"
     abstract: "Com o desenvolvimento de modelos como ChatGPT, o Processamento de Linguagem Natural (PLN) vem sendo discutido cada vez mais como um caminho para a obtenção de uma Inteligência Artificial Geral (AGI - Artificial General Intelligence). O processamento de texto por parte de computadores passou por diversas fases ao longo dos anos, partindo de simples representações estatísticas das palavras até os atuais, e complexos, modelos baseados em redes neurais profundas. Neste painel, primeiro apresentaremos uma introdução da área através dos fundamentos gerais de PLN, considerando as tarefas mais utilizadas e as diferentes maneiras de representação de texto. Na segunda parte, discutiremos as novas arquiteturas neurais responsáveis pelas recentes inovações da área, explorando seu funcionamento e suas capacidades."
     authors:
