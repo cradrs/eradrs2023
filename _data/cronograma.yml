@@ -310,7 +310,7 @@ schedule:
         type: "workshop"
         start_time: "14:30"
         end_time: "16:00"
-        room: "Auditório do Prédio 32"
+        room: "Laboratório 409"
         speakers:
           - name: "Lucas Silveira Kupssinskü"
             institution: "PUCRS"
