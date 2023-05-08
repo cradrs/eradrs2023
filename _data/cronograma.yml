@@ -83,6 +83,7 @@ schedule:
         start_time: "12:00"
         end_time: "14:00"
       - title: "Palestra Industrial: The next BIG thing in Exascale"
+        description: "Nesta palestra Leonardo Fialho apresentará a visão da EVIDEN para o futuro da era Exascale. O que esperar da computação de alto desempenho quando o que era grande ficará ainda maior? Quais são os desafios do Exascale? O que é possível fazer? Quais as limitações de hardware? Quais as limitações da física? O que vem por aí? Uma breve visão do futuro que se materializará nos próximos anos dentro e fora da EVIDEN."
         link: "palestras.html#PI2"
         type: "lecture"
         start_time: "14:00"
