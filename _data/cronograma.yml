@@ -104,7 +104,7 @@ schedule:
         end_time: "16:00"
         room: "Auditório 517"
         chairs:
-          - name: "Guilherme Galante"
+          - name: "Guilherme Galante (UNIOESTE)"
         papers:
           - title: "Comparação entre as Diretivas parallel do e teams distribute de OpenMP em uma Aplicação de Meios Porosos"
             authors: "Gabriel Dineck Tremarin (UNIPAMPA) e Claudio Schepke (UNIPAMPA)"
@@ -127,7 +127,7 @@ schedule:
         end_time: "16:00"
         room: "Auditório 516"
         chairs:
-          - name: "TBD"
+          - name: "Andriele Busatto do Carmo (UNISINOS)"
         papers:
           - title: "Desafios da modelagem do refinamento adaptativo das malhas: um estudo sobre o MARE2DEM"
             authors: "Bruno Alves (UFRGS) e Lucas Mello Schnorr (UFRGS)"
@@ -267,7 +267,7 @@ schedule:
         end_time: "16:00"
         room: "Auditório 517"
         chairs:
-          - name: "Charles Christian Miers"
+          - name: "Charles Christian Miers (UDESC)"
         papers:
           - title: "Cloud computing para deploy de modelos de deep learning para a classificação de Retinopatia Diabética"
             authors: "Matheus Camargo (UFRGS), Cristiano Alex Künas (UFRGS) e Philippe Olivier Alexandre Navaux (UFRGS)"
@@ -288,7 +288,7 @@ schedule:
         end_time: "16:00"
         room: "Auditório 516"
         chairs:
-          - name: "TBD"
+          - name: "Guilherme Koslovski (UDESC)"
         papers:
           - title: "Utilização de aprendizado por reforço para adaptar a quantidade de recursos e acelerar aplicações"
             authors: "Lucas Nesi (UFRGS), Lucas Mello Schnorr (UFRGS) e Arnaud Legrand (CNRS - France)"
@@ -444,7 +444,7 @@ schedule:
         end_time: "16:00"
         room: "Auditório 516"
         chairs:
-          - name: "Edson Luiz Padoin"
+          - name: "Edson Luiz Padoin (UNIJUI)"
         papers:
           - title: "Implementação e Avaliação de Desempenho da Linguagem Rust no NAS Embarassingly Parallel Benchmark"
             authors: "Bernardo Zomer (PUCRS), Renato Barreto Hoffmann Filho (PUCRS) e Dalvan Griebler (PUCRS/SETREM)"
@@ -487,7 +487,7 @@ schedule:
         end_time: "17:30"
         room: "Auditório 517"
         chairs:
-          - name: "Gabriella Lopes Andrade"
+          - name: "Gabriella Lopes Andrade (PUCRS)"
         papers:
           - title: "Treinamento Paralelo de Redes Neurais usando o Modelo de Atores"
             authors: "Ariam Moresco Bartsch (UFPEL) e André Du Bois (UFPEL)"

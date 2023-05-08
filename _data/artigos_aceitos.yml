@@ -6,22 +6,25 @@ ic-track:
     start_time: "14:30"
     end_time: "16:00"
     chair:
-      name: "Guilherme Galante"
+      name: "Guilherme Galante (UNIOESTE)"
     room: "Auditório 517"
     papers:
       - title: "Comparação entre as Diretivas parallel do e teams distribute de OpenMP em uma Aplicação de Meios Porosos"
+        pdf: "ic_s1_1.pdf"
         authors:
           - name: "Gabriel Dineck Tremarin"
             institution: "UNIPAMPA"
           - name: "Claudio Schepke"
             institution: "UNIPAMPA"
       - title: "Análise do overhead em aplicações paralelas OpenMP utilizando OMPT e Score-P"
+        pdf: "ic_s1_2.pdf"
         authors:
           - name: "João Vitor Laurino"
             institution: "FURG"
           - name: "Vinicius Garcia Pinto"
             institution: "FURG"
       - title: "Utilização de redes neurais artificiais como estratégia para o reconhecimento de emoções"
+        pdf: "ic_s1_3.pdf"
         authors:
           - name: "Mayara Meotti"
             institution: "UNIJUI"
@@ -30,6 +33,7 @@ ic-track:
           - name: "Edson Luiz Padoin"
             institution: "UNIJUI"
       - title: "Avaliação do paralelismo em classificadores taxonômicos de sequências de rRNA usando Qiime2"
+        pdf: "ic_s1_4.pdf"
         authors:
           - name: "Pedro Gaspary"
             institution: "PUCRS"
@@ -40,6 +44,7 @@ ic-track:
           - name: "Eduardo Eizirik"
             institution: "PUCRS"
       - title: "KNN exato em GPU"
+        pdf: "ic_s1_5.pdf"
         authors:
           - name: "Michel Brasil Cordeiro"
             institution: "UFPR"
@@ -48,12 +53,14 @@ ic-track:
           - name: "Wagner Zola"
             institution: "UFPR"
       - title: "Algoritmo KNN paralelo em cluster com MPI"
+        pdf: "ic_s1_6.pdf"
         authors:
           - name: "Henrique Rieger"
             institution: "UFPR"
           - name: "Wagner Zola"
             institution: "UFPR"
       - title: "Algoritmo de Árvore Binomial Balanceada para Broadcast com MPI"
+        pdf: "ic_s1_7.pdf"
         authors:
           - name: "João Lucas Cordeiro"
             institution: "UFPR"
@@ -66,10 +73,11 @@ ic-track:
     start_time: "14:30"
     end_time: "16:00"
     chair:
-      name: "Charles Christian Miers"
+      name: "Charles Christian Miers (UDESC)"
     room: "Auditório 517"
     papers:
       - title: "Cloud computing para deploy de modelos de deep learning para a classificação de Retinopatia Diabética"
+        pdf: "ic_s2_1.pdf"
         authors:
           - name: "Matheus Camargo"
             institution: "UFRGS"
@@ -78,6 +86,7 @@ ic-track:
           - name: "Philippe Olivier Alexandre Navaux"
             institution: "UFRGS"
       - title: "Comparando o Desempenho entre Computação em Nuvem e Servidor Local na Execução do Método Fletcher"
+        pdf: "ic_s2_2.pdf"
         authors:
           - name: "Brenda Schussler"
             institution: "UFRGS"
@@ -94,6 +103,7 @@ ic-track:
           - name: "Philippe Olivier Alexandre Navaux"
             institution: "UFRGS"
       - title: "Análise do Sobrecusto de Utilização de Contêineres para Execução de Aplicações de HPC na Nuvem"
+        pdf: "ic_s2_3.pdf"
         authors:
           - name: "Lívia Ferrão"
             institution: "UFSC"
@@ -102,6 +112,7 @@ ic-track:
           - name: "Márcio Castro"
             institution: "UFSC"
       - title: "Proposta de um Cluster para Aplicações de HPC com o uso de Docker e Infiniband"
+        pdf: "ic_s2_4.pdf"
         authors:
           - name: "Weslley Silva"
             institution: "UFSC"
@@ -110,6 +121,7 @@ ic-track:
           - name: "Odorico Mendizabal"
             institution: "UFSC"
       - title: "Análise de Viabilidade do Perfilamento de Aplicações de HPC Baseada em Contadores de Hardware na AWS"
+        pdf: "ic_s2_5.pdf"
         authors:
           - name: "Luiz Fernando Althoff"
             institution: "UFSC"
@@ -118,6 +130,7 @@ ic-track:
           - name: "Vanderlei Pereira Filho"
             institution: "UFSC"
       - title: "Análise de Correlação no Esforço de Desenvolvimento de Aplicações Paralelas"
+        pdf: "ic_s2_6.pdf"
         authors:
           - name: "Eduardo Eichner"
             institution: "PUCRS"
@@ -134,10 +147,11 @@ ic-track:
     start_time: "14:30"
     end_time: "16:00"
     chair:
-      name: "Edson Luiz Padoin"
+      name: "Edson Luiz Padoin (UNIJUI)"
     room: "Auditório 516"
     papers:
       - title: "Implementação e Avaliação de Desempenho da Linguagem Rust no NAS Embarassingly Parallel Benchmark"
+        pdf: "ic_s3_1.pdf"
         authors:
           - name: "Bernardo Zomer"
             institution: "PUCRS"
@@ -146,6 +160,7 @@ ic-track:
           - name: "Dalvan Griebler"
             institution: "PUCRS/SETREM"
       - title: "Avaliação do Paralelismo dos Kernels EP e CG em Sistemas Embarcados"
+        pdf: "ic_s3_2.pdf"
         authors:
           - name: "Lucas Marchesan Cunha"
             institution: "PUCRS"
@@ -156,6 +171,7 @@ ic-track:
           - name: "Isabel H. Manssour"
             institution: "PUCRS"          
       - title: "Avaliação do paralelismo nos kernels NAS Parallel Benchmarks usando estruturas de dados da biblioteca C++"
+        pdf: "ic_s3_3.pdf"
         authors:
           - name: "Arthur Bianchessi"
             institution: "PUCRS"
@@ -164,24 +180,28 @@ ic-track:
           - name: "Dalvan Griebler"
             institution: "PUCRS/SETREM"
       - title: "Uma proposta de análise de desempenho para rastreamento de fluxos de trabalho usando SPIFFE/SPIRE"
+        pdf: "ic_s3_4.pdf"
         authors:
           - name: "Milton Pagliusi"
             institution: "UDESC"
           - name: "Charles Miers"
             institution: "UDESC"
       - title: "Implementação e Avaliação do Paralelismo de Flink nas Aplicações de Processamento de Log e Análise de Clicks"
+        pdf: "ic_s3_5.pdf"
         authors:
           - name: "Gabriel Fim"
             institution: "SETREM"
           - name: "Dalvan Griebler"
             institution: "PUCRS/SETREM"
       - title: "Análise de Desempenho de Hash Tables Não-Bloqueantes na Linguagem C++"
+        pdf: "ic_s3_6.pdf"
         authors:
           - name: "Douglas Luiz"
             institution: "UFSC"
           - name: "Odorico Mendizabal"
             institution: "UFSC"
       - title: "Proposta para o uso de Contadores de Performance em Hardware para detecção de Malware"
+        pdf: "ic_s3_7.pdf"
         authors:
           - name: "Bruno Dal Pontte"
             institution: "UFPR"
@@ -196,22 +216,25 @@ ic-track:
     start_time: "16:30"
     end_time: "17:30"
     chair:
-      name: "Gabriella Lopes Andrade"
+      name: "Gabriella Lopes Andrade (PUCRS)"
     room: "Auditório 517"
     papers:
       - title: "Treinamento Paralelo de Redes Neurais usando o Modelo de Atores"
+        pdf: "ic_s4_1.pdf"
         authors:
           - name: "Ariam Moresco Bartsch"
             institution: "UFPEL"
           - name: "André Du Bois"
             institution: "UFPEL"
       - title: "Estudo Sobre Spark nas Aplicações de Processamento de Log e Análise de Cliques"
+        pdf: "ic_s4_2.pdf"
         authors:
           - name: "Luan Dopke"
             institution: "SETREM"
           - name: "Dalvan Griebler"
             institution: "PUCRS/SETREM"
       - title: "Impacto da biblioteca padrão do C++ nos Kernels do NAS Parallel Benchmarks"
+        pdf: "ic_s4_3.pdf"
         authors:
           - name: "Leonardo Mallmann"
             institution: "PUCRS"
@@ -220,6 +243,7 @@ ic-track:
           - name: "Dalvan Griebler"
             institution: "PUCRS/SETREM"
       - title: "Benchmarking da Aplicação de Comparação de Similaridade entre Imagens com Flink, Storm e SPar"
+        pdf: "ic_s4_4.pdf"
         authors:
           - name: "Leonardo Faé"
             institution: "PUCRS"
@@ -228,6 +252,7 @@ ic-track:
           - name: "Isabel Manssour"
             institution: "PUCRS"
       - title: "Spike Detection Stream Benchmark implementada em MPI"
+        pdf: "ic_s4_5.pdf"
         authors:
           - name: "Caetano Müler"
             institution: "PUCRS"
@@ -242,7 +267,7 @@ pg-track:
     start_time: "14:30"
     end_time: "16:00"
     chair:
-      name: "TBD"
+      name: "Andriele Busatto do Carmo (UNISINOS)"
     room: "Auditório 516"
     papers:
       - title: "Desafios da modelagem do refinamento adaptativo das malhas: um estudo sobre o MARE2DEM"
@@ -300,7 +325,7 @@ pg-track:
     start_time: "14:30"
     end_time: "16:00"
     chair:
-      name: "TBD"
+      name: "Guilherme Koslovski (UDESC)"
     room: "Auditório 516"
     papers:
       - title: "Utilização de aprendizado por reforço para adaptar a quantidade de recursos e acelerar aplicações"
