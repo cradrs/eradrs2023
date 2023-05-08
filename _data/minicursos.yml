@@ -66,6 +66,7 @@ tutorials:
     date: "12/05 (09:00 - 11:30) — Auditório 516"
     name: "Minicurso 6"
     title: "Tecnologias de Storage"
+    abstract: "O minicurso de armazenamento abordará as principais formas de conexões existentes, tais como SATA, SCSI, SAS, iSCSI, Fibre Channel, entre outras. Nele, os participantes poderão compreender as vantagens e desvantagens de cada uma dessas opções, bem como entender a importância da escolha correta na hora de definir a solução de armazenamento adequada para cada situação. Serão discutidos os diversos tipos de dispositivos de armazenamento existentes no mercado, tais como unidades de disco rígido (HDD), unidades de estado sólido (SSD), unidades de fita (tape drive), cartões de memória, entre outros. Os participantes poderão entender as características de cada um desses dispositivos, bem como saber qual a melhor opção. O treinamento disponibilizado será interativo, com vários equipamentos para serem vistos durante o minicurso."
     authors:
       - name: "Guilherme Friol (SDC)"
         bio: "Especialista em computação com anos de experiência em ambientes computacionais de alta demanda, virtualização e HPC. Atua como consultor em arquitetura e otimização de sistemas de alto desempenho. Desenvolveu projetos relevantes junto a grandes instituições de pesquisa e notórios nomes da computação nacional em machine learning e redes neurais."
