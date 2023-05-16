@@ -8,7 +8,7 @@ tutorials:
         bio: "Doutor em Computação Aplicada pela Unisinos com mais de nove anos de experiência em desenvolvimento de sistemas utilizando metodologias ágeis, desempenhando papéis de Desenvolvedor, Analista de Sistemas e Scrum Master. Lucas tem experiência como professor em cursos de extensão, técnico, graduação (UFRGS e PUCRS) e Pós-Graduação Lato Sensu em disciplinas de Computação e Aprendizado de Máquina. Seus principais interesses de pesquisa são Mineração de Dados e Aprendizado de Máquina."
         photo: "lucassilveira.jpeg"
       - name: "Adilson Medronha"
-        bio: "Graduando em Ciência da Computação na PUCRS. Possui experiência em aprendizado de máquina aplicado a dados estruturados e em visão computacional."
+        bio: "Graduando em Ciência da Computação e um entusiasta de deep learning, atuando em diversos projetos da área, com destaque para a criação de conjuntos de dados para treinamento de modelos de reconhecimento de sinais, implementação de métodos para redução de vieses em redes neurais para processamento de linguagem natural e tarefas multimodais. Atualmente, desenvolve suas habilidades como desenvolvedor de Visão Computacional na Pix Force."
         photo: "adilsonmedronha.jpeg"
 
 painel:
