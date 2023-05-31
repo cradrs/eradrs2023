@@ -27,7 +27,7 @@ title: "Artigos aceitos"
                 <div class="session-papers">
                     {% for paper in session.papers %}
                         <div class="session-paper">
-                            <h5 class="session-paper-title">{{ paper.title }} {% if paper.pdf %}<span><a href="pdfs/forumic/{{ paper.pdf }}" target="_blank"><img class="paper-pdf-img" src="img/pdf-file.png"></a></span>{% endif %}</h5>
+                            <h5 class="session-paper-title">{{ paper.title }} {% if paper.pdf %}<span><a href="{{ paper.pdf }}" target="_blank"><img class="paper-pdf-img" src="img/pdf-file.png"></a></span>{% endif %}</h5>
                             <h6>
                                 {% for author in paper.authors %}
                                     {{ author.name }} ({{ author.institution }}){% if forloop.rindex == 2 %} e {% elsif forloop.rindex == 1 %}{% else %}, {% endif %}
@@ -61,7 +61,7 @@ title: "Artigos aceitos"
                 <div class="session-papers">
                     {% for paper in session.papers %}
                         <div class="session-paper">
-                            <h5 class="session-paper-title">{{ paper.title }} {% if paper.pdf %}<span><a href="pdfs/forumpg/{{ paper.pdf }}" target="_blank"><img class="paper-pdf-img" src="img/pdf-file.png"></a></span>{% endif %}</h5>
+                            <h5 class="session-paper-title">{{ paper.title }} {% if paper.pdf %}<span><a href="{{ paper.pdf }}" target="_blank"><img class="paper-pdf-img" src="img/pdf-file.png"></a></span>{% endif %}</h5>
                             <h6>
                                 {% for author in paper.authors %}
                                     {{ author.name }} ({{ author.institution }}){% if forloop.rindex == 2 %} e {% elsif forloop.rindex == 1 %}{% else %}, {% endif %}
